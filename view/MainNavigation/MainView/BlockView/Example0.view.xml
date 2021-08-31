@@ -1,0 +1,49 @@
+<mvc:View controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+  height="100%" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:m="sap.m">
+
+  <m:Page showHeader="false">
+    <m:content>
+
+      <l:BlockLayout background="Dashboard">
+        <l:BlockLayoutRow>
+
+          <l:BlockLayoutCell class="sapUiNoContentPadding">
+            <m:Panel headerText="Replicating cost center" 
+              height="100%" 
+              class="sapUiNoContentPadding">
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.GraphView.Horizontal.Scenario1" />
+            </m:Panel>
+          </l:BlockLayoutCell>
+
+        </l:BlockLayoutRow>
+        <l:BlockLayoutRow>
+
+          <l:BlockLayoutCell class="sapUiNoContentPadding">
+            <m:Panel headerText="Cloud integration" 
+              height="100%" 
+              class="sapUiNoContentPadding">
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.GraphView.Horizontal.Scenario2" />
+            </m:Panel>
+          </l:BlockLayoutCell>
+
+        </l:BlockLayoutRow>
+        <l:BlockLayoutRow>
+
+          <l:BlockLayoutCell class="sapUiNoContentPadding">
+            <m:Panel headerText="Managed employees" 
+              height="100%" 
+              class="sapUiNoContentPadding">
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.GraphView.Horizontal.Employees" />
+            </m:Panel>
+          </l:BlockLayoutCell>
+
+        </l:BlockLayoutRow>
+      </l:BlockLayout>
+
+    </m:content>
+  </m:Page>
+
+</mvc:View>

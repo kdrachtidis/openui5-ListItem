@@ -1,0 +1,60 @@
+<mvc:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.ListView.Tasks-Scenario1" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+
+    <Table id="idProductsTable" 
+        inset="false" 
+        items="{path:'/results', templateShareable: true, filters : [{path : 'ScenarioNo', operator:'EQ', value1:'1'}]}">
+
+        <headerToolbar>
+            <Toolbar>
+                <Title text="Items" 
+                    level="H2" />
+            </Toolbar>
+        </headerToolbar>
+
+        <columns>
+            <Column>
+                <Text text="Name" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="ID" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="Sequence" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="Type" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="Assigned To" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="Status" />
+            </Column>
+        </columns>
+
+        <items>
+            <ColumnListItem type="Navigation" 
+                press="onPress">
+                <cells>
+                    <ObjectIdentifier title="{Name}" />
+                    <Text text="{Id}" />
+                    <Text text="{Sequence}" />
+                    <Text text="{Type}" />
+                    <Text text="{Assignee}" />
+                    <ObjectStatus text="{Status}" 
+                        state="{StatusInfoState}" />
+                </cells>
+            </ColumnListItem>
+        </items>
+
+    </Table>
+    
+</mvc:View>

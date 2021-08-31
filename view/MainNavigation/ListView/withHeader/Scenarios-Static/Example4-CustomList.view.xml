@@ -1,0 +1,36 @@
+<mvc:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.ListView.Scenarios-Static" 
+    xmlns:core="sap.ui.core" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+
+    <List headerText="Integration Scenarios ({=${/results}.length})" 
+        items="{path:'/results', templateShareable: true}">
+        <CustomListItem type="Navigation" 
+            press="onPress" 
+            highlight="{StatusInfoState}" 
+            tooltip="{Name} - {Documentation}">
+            <HBox>
+                <core:Icon size="3rem" 
+                    src="sap-icon://activities" 
+                    class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" />
+                <VBox class="sapUiSmallMargin sapUiSmallMarginTopBottom">
+                    <Title text="{Name}" 
+                        wrapping="true" />
+                    <Label text="{Documentation}" 
+                        wrapping="true" />
+                    <Text text="{ExecutionInstanceID}" 
+                        wrapping="true" />
+                    <ObjectStatus text="{Status}" 
+                        state="{StatusInfoState}" />
+                    <ProgressIndicator percentValue="{Completion}" 
+                        displayValue="{CompletedTasks}/{AllTasks}" 
+                        showValue="true" 
+                        state="None" 
+                        displayOnly="false" />
+                </VBox>
+            </HBox>
+        </CustomListItem>
+    </List>
+    
+</mvc:View>

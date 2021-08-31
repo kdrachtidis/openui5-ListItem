@@ -1,0 +1,31 @@
+<mvc:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.ListView.Tasks" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+
+    <List headerText="Items" 
+        items="{path:'/results', templateShareable: true, filters : [{path : 'ScenarioNo', operator:'EQ', value1:'2'}]}">
+        <items>
+            <ObjectListItem icon="sap-icon://workflow-tasks" 
+                press="onPress" 
+                intro="{Type}" 
+                title="{Name}" 
+                type="Navigation" 
+                number="{Assignee}" 
+                numberUnit="{AssigneeRole}">
+                <firstStatus>
+                    <ObjectStatus text="{Status}" 
+                        state="{StatusInfoState}" />
+                </firstStatus>
+                <attributes>
+                    <ObjectAttribute title="ID" 
+                        text="{Id}" />
+                    <ObjectAttribute title="Sequence" 
+                        text="{Sequence}" />
+                </attributes>
+            </ObjectListItem>
+        </items>
+    </List>
+    
+</mvc:View>
+ 

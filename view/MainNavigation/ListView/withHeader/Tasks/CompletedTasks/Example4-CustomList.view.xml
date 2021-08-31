@@ -1,0 +1,30 @@
+<mvc:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.ListView.Tasks" 
+    xmlns:core="sap.ui.core" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+
+    <List headerText="Items (10)" 
+        items="{path:'/results', templateShareable: true, filters : [{path : 'Status', operator:'Contains', value1:'Completed'}]}">
+        <CustomListItem type="Navigation" 
+            press="onPress" 
+            highlight="{StatusInfoState}">
+            <HBox>
+                <core:Icon size="3rem" 
+                    src="sap-icon://workflow-tasks" 
+                    class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" />
+                <VBox class="sapUiSmallMargin sapUiSmallMarginTopBottom">
+                    <Title text="{Name}" 
+                        wrapping="true" />
+                    <Label text="{ScenarioName}" 
+                        wrapping="true" />
+                    <Text text="{Assignee}" 
+                        wrapping="true" />
+                    <ObjectStatus text="{Status}" 
+                        state="{StatusInfoState}" />
+                </VBox>
+            </HBox>
+        </CustomListItem>
+    </List>
+    
+</mvc:View>

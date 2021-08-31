@@ -1,0 +1,38 @@
+<mvc:View controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+  height="100%" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns="sap.m">
+
+  <Page showHeader="false">
+    <content>
+
+      <l:BlockLayout background="Dashboard">
+        <l:BlockLayoutRow>
+
+          <l:BlockLayoutCell title="Running scenarios">
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios.Example1-StandardList" />
+          </l:BlockLayoutCell>
+        
+          <l:BlockLayoutCell title="Pending tasks">
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Tasks.PendingTasks.Example1-StandardList" />
+          </l:BlockLayoutCell>
+
+        </l:BlockLayoutRow>
+        <l:BlockLayoutRow>
+
+          <l:BlockLayoutCell title="Completed tasks">
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Tasks.CompletedTasks.Example1-StandardList" />
+          </l:BlockLayoutCell>
+
+          <l:BlockLayoutCell title="Managed employees">
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Employees.Example1-StandardList" />
+          </l:BlockLayoutCell>
+
+        </l:BlockLayoutRow>
+      </l:BlockLayout>
+
+    </content>
+  </Page>
+
+</mvc:View>
