@@ -1,0 +1,46 @@
+<mvc:View controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:m="sap.m">
+
+  <m:Page showHeader="true" 
+    title="Cloud Integration Service">
+    <m:content>
+
+      <l:ResponsiveSplitter defaultPane="default">
+
+        <l:PaneContainer orientation="Horizontal">
+
+          <l:SplitPane requiredParentWidth="960" 
+            id="default">
+            <m:Panel headerText="Replicating cost center" 
+              height="100%" 
+              class="sapUiNoContentPadding">
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.GraphView.Vertical.Scenario1" />
+            </m:Panel>
+          </l:SplitPane>
+
+          <l:SplitPane requiredParentWidth="960">
+            <m:Panel headerText="Cloud integration" 
+              height="100%" 
+              class="sapUiNoContentPadding">
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.GraphView.Vertical.Scenario2" />
+            </m:Panel>
+          </l:SplitPane>
+
+          <l:SplitPane requiredParentWidth="960">
+            <m:Panel headerText="Managed employees" 
+              height="100%" 
+              class="sapUiNoContentPadding">
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.GraphView.Vertical.Employees" />
+            </m:Panel>
+          </l:SplitPane>
+
+        </l:PaneContainer>
+
+      </l:ResponsiveSplitter>
+
+    </m:content>
+  </m:Page>
+
+</mvc:View>
