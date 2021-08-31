@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Controller) {
     "use strict";
 
-    var Controller = Controller.extend("DemoUXapp.controller.MainNavigation.Example4");
+    var Controller = Controller.extend("DemoUXapp.controller.MainNavigation.MainView");
 
     return Controller;
 });

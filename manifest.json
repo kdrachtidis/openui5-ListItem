@@ -52,61 +52,477 @@
             "routes": [
                 {
                     "pattern": "",
-                    "name": "MainPage",
-                    "target": "MainPage"
+                    "name": "home",
+                    "target": "home"
                 },
                 {
-                    "pattern": "example1",
-                    "name": "example1",
-                    "target": "example1"
+                    "pattern": "sap.m.List/sap.m.StandardListItem",
+                    "name": "sap.m.List/sap.m.StandardListItem",
+                    "target": "sap.m.List/sap.m.StandardListItem"
                 },
                 {
-                    "pattern": "example2",
-                    "name": "example2",
-                    "target": "example2"
+                    "pattern": "sap.m.List/sap.m.ObjectListItem",
+                    "name": "sap.m.List/sap.m.ObjectListItem",
+                    "target": "sap.m.List/sap.m.ObjectListItem"
                 },
                 {
-                    "pattern": "example3",
-                    "name": "example3",
-                    "target": "example3"
+                    "pattern": "sap.m.Table/sap.m.ColumnListItem",
+                    "name": "sap.m.Table/sap.m.ColumnListItem",
+                    "target": "sap.m.Table/sap.m.ColumnListItem"
                 },
                 {
-                    "pattern": "example4",
-                    "name": "example4",
-                    "target": "example4"
+                    "pattern": "sap.m.List/sap.m.CustomListItem",
+                    "name": "sap.m.List/sap.m.CustomListItem",
+                    "target": "sap.m.List/sap.m.CustomListItem"
                 },
                 {
-                    "pattern": "FixedPage1",
-                    "name": "FixedPage1",
-                    "target": "FixedPage1"
+                    "pattern": "sap.f.GridList/sap.m.CustomListGridItem",
+                    "name": "sap.f.GridList/sap.m.CustomListGridItem",
+                    "target": "sap.f.GridList/sap.m.CustomListGridItem"
                 },
                 {
-                    "pattern": "FixedPage2",
-                    "name": "FixedPage2",
-                    "target": "FixedPage2"
+                    "pattern": "sap.f.GridList/sap.f.GridListItem",
+                    "name": "sap.f.GridList/sap.f.GridListItem",
+                    "target": "sap.f.GridList/sap.f.GridListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.suite.ui.commons.networkgraph.Graph",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.suite.ui.commons.networkgraph.Graph",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.suite.ui.commons.networkgraph.Graph"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.StandardListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.StandardListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.StandardListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.ObjectListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.ObjectListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.ObjectListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.Table/sap.m.ColumnListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.Table/sap.m.ColumnListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.Table/sap.m.ColumnListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.CustomListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.CustomListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.CustomListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.m.CustomListGridItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.m.CustomListGridItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.m.CustomListGridItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.f.GridListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.f.GridListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.f.GridListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.suite.ui.commons.networkgraph.Graph",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.suite.ui.commons.networkgraph.Graph",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.suite.ui.commons.networkgraph.Graph"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.StandardListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.StandardListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.StandardListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.ObjectListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.ObjectListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.ObjectListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.Table/sap.m.ColumnListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.Table/sap.m.ColumnListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.Table/sap.m.ColumnListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.CustomListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.CustomListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.CustomListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.m.CustomListGridItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.m.CustomListGridItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.m.CustomListGridItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.f.GridListItem",
+                    "name": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.f.GridListItem",
+                    "target": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.f.GridListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.BlockLayout/sap.suite.ui.commons.networkgraph.Graph",
+                    "name": "sap.ui.layout.BlockLayout/sap.suite.ui.commons.networkgraph.Graph",
+                    "target": "sap.ui.layout.BlockLayout/sap.suite.ui.commons.networkgraph.Graph"
+                },
+                {
+                    "pattern": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.StandardListItem",
+                    "name": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.StandardListItem",
+                    "target": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.StandardListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.ObjectListItem",
+                    "name": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.ObjectListItem",
+                    "target": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.ObjectListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.BlockLayout/sap.m.Table/sap.m.ColumnListItem",
+                    "name": "sap.ui.layout.BlockLayout/sap.m.Table/sap.m.ColumnListItem",
+                    "target": "sap.ui.layout.BlockLayout/sap.m.Table/sap.m.ColumnListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.CustomListItem",
+                    "name": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.CustomListItem",
+                    "target": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.CustomListItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.BlockLayout/sap.f.GridList/sap.m.CustomListGridItem",
+                    "name": "sap.ui.layout.BlockLayout/sap.f.GridList/sap.m.CustomListGridItem",
+                    "target": "sap.ui.layout.BlockLayout/sap.f.GridList/sap.m.CustomListGridItem"
+                },
+                {
+                    "pattern": "sap.ui.layout.BlockLayout/sap.f.GridList/sap.f.GridListItem",
+                    "name": "sap.ui.layout.BlockLayout/sap.f.GridList/sap.f.GridListItem",
+                    "target": "sap.ui.layout.BlockLayout/sap.f.GridList/sap.f.GridListItem"
+                },
+                {
+                    "pattern": "sap.f.Card/sap.suite.ui.commons.networkgraph.Graph",
+                    "name": "sap.f.Card/sap.suite.ui.commons.networkgraph.Graph",
+                    "target": "sap.f.Card/sap.suite.ui.commons.networkgraph.Graph"
+                },
+                {
+                    "pattern": "sap.f.Card/sap.m.List/sap.m.StandardListItem",
+                    "name": "sap.f.Card/sap.m.List/sap.m.StandardListItem",
+                    "target": "sap.f.Card/sap.m.List/sap.m.StandardListItem"
+                },
+                {
+                    "pattern": "sap.f.Card/sap.m.List/sap.m.ObjectListItem",
+                    "name": "sap.f.Card/sap.m.List/sap.m.ObjectListItem",
+                    "target": "sap.f.Card/sap.m.List/sap.m.ObjectListItem"
+                },
+                {
+                    "pattern": "sap.f.Card/sap.m.Table/sap.m.ColumnListItem",
+                    "name": "sap.f.Card/sap.m.Table/sap.m.ColumnListItem",
+                    "target": "sap.f.Card/sap.m.Table/sap.m.ColumnListItem"
+                },
+                {
+                    "pattern": "sap.f.Card/sap.m.List/sap.m.CustomListItem",
+                    "name": "sap.f.Card/sap.m.List/sap.m.CustomListItem",
+                    "target": "sap.f.Card/sap.m.List/sap.m.CustomListItem"
+                },
+                {
+                    "pattern": "sap.f.Card/sap.f.GridList/sap.m.CustomListItem",
+                    "name": "sap.f.Card/sap.f.GridList/sap.m.CustomListItem",
+                    "target": "sap.f.Card/sap.f.GridList/sap.m.CustomListItem"
+                },
+                {
+                    "pattern": "sap.f.Card/sap.f.GridList/sap.f.GridListItem",
+                    "name": "sap.f.Card/sap.f.GridList/sap.f.GridListItem",
+                    "target": "sap.f.Card/sap.f.GridList/sap.f.GridListItem"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem/1",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem/1",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem/1"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.ObjectListItem/1",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.ObjectListItem/1",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.ObjectListItem/1"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem/1",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem/1",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem/1"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.CustomListItem/1",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.CustomListItem/1",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.CustomListItem/1"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.m.CustomListItem/1",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.m.CustomListItem/1",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.m.CustomListItem/1"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem/1",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem/1",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem/1"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem/2",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem/2",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem/2"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.ObjectListItem/2",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.ObjectListItem/2",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.ObjectListItem/2"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem/2",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem/2",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem/2"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.CustomListItem/2",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.CustomListItem/2",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.CustomListItem/2"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.m.CustomListItem/2",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.m.CustomListItem/2",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.m.CustomListItem/2"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem/2",
+                    "name": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem/2",
+                    "target": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem/2"
+                },
+                {
+                    "pattern": "ObjectPageLayout/1/Object/1",
+                    "name": "ObjectPageLayout/1/Object/1",
+                    "target": "ObjectPageLayout/1/Object/1"
+                },
+                {
+                    "pattern": "ObjectPageLayout/1/Object/2",
+                    "name": "ObjectPageLayout/1/Object/2",
+                    "target": "ObjectPageLayout/1/Object/2"
+                },
+                {
+                    "pattern": "ObjectPageLayout/1/Object/3",
+                    "name": "ObjectPageLayout/1/Object/3",
+                    "target": "ObjectPageLayout/1/Object/3"
+                },
+                {
+                    "pattern": "ObjectPageLayout/1/Object/4",
+                    "name": "ObjectPageLayout/1/Object/4",
+                    "target": "ObjectPageLayout/1/Object/4"
+                },
+                {
+                    "pattern": "ObjectPageLayout/1/Object/5",
+                    "name": "ObjectPageLayout/1/Object/5",
+                    "target": "ObjectPageLayout/1/Object/5"
+                },
+                {
+                    "pattern": "ObjectPageLayout/1/Object/6",
+                    "name": "ObjectPageLayout/1/Object/6",
+                    "target": "ObjectPageLayout/1/Object/6"
+                },
+                {
+                    "pattern": "ObjectPageLayout/1/Object/7",
+                    "name": "ObjectPageLayout/1/Object/7",
+                    "target": "ObjectPageLayout/1/Object/7"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/scenario/{scenarioId}",
+                    "name": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/scenario",
+                    "target": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/scenario"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee/{employeeId}",
+                    "name": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee",
+                    "target": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee"
+                },
+                {
+                    "pattern": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/task/{taskId}",
+                    "name": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/task",
+                    "target": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/task"
+                },
+                {
+                    "pattern": "utility1",
+                    "name": "utility1",
+                    "target": "utility1"
+                },
+                {
+                    "pattern": "utility2",
+                    "name": "utility2",
+                    "target": "utility2"
                 }
             ],
             "targets": {
-                "MainPage": {
-                    "viewName": "MainNavigation.MainPage"
+                "home": {
+                    "viewName": "MainNavigation.Home"
                 },
-                "example1": {
-                    "viewName": "MainNavigation.Example1"
+                "sap.m.List/sap.m.StandardListItem": {
+                    "viewName": "MainNavigation.MainView.SingleView.Example1-StandardList"
                 },
-                "example2": {
-                    "viewName": "MainNavigation.Example2"
+                "sap.m.List/sap.m.ObjectListItem": {
+                    "viewName": "MainNavigation.MainView.SingleView.Example2-ObjectList"
                 },
-                "example3": {
-                    "viewName": "MainNavigation.Example3"
+                "sap.m.Table/sap.m.ColumnListItem": {
+                    "viewName": "MainNavigation.MainView.SingleView.Example3-Table"
                 },
-                "example4": {
-                    "viewName": "MainNavigation.Example4"
+                "sap.m.List/sap.m.CustomListItem": {
+                    "viewName": "MainNavigation.MainView.SingleView.Example4-CustomList"
                 },
-                "FixedPage1": {
-                    "viewName": "FixedNavigation.FixedPage1"
+                "sap.f.GridList/sap.m.CustomListGridItem": {
+                    "viewName": "MainNavigation.MainView.SingleView.Example5-CustomListGrid"
                 },
-                "FixedPage2": {
-                    "viewName": "FixedNavigation.FixedPage2"
+                "sap.f.GridList/sap.f.GridListItem": {
+                    "viewName": "MainNavigation.MainView.SingleView.Example6-GridList"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.suite.ui.commons.networkgraph.Graph": {
+                    "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example0"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.StandardListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example1-StandardList"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.ObjectListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example2-ObjectList"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.Table/sap.m.ColumnListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example3-Table"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.CustomListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example4-CustomList"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.m.CustomListGridItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example5-CustomListGrid"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.f.GridListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example6-GridList"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Vertical/sap.suite.ui.commons.networkgraph.Graph": {
+                    "viewName": "MainNavigation.MainView.SplitView.Vertical.Example0"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.StandardListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Vertical.Example1-StandardList"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.ObjectListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Vertical.Example2-ObjectList"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.Table/sap.m.ColumnListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Vertical.Example3-Table"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.CustomListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Vertical.Example4-CustomList"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.m.CustomListGridItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Vertical.Example5-CustomListGrid"
+                },
+                "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.f.GridListItem": {
+                    "viewName": "MainNavigation.MainView.SplitView.Vertical.Example6-GridList"
+                },
+                "sap.ui.layout.BlockLayout/sap.suite.ui.commons.networkgraph.Graph": {
+                    "viewName": "MainNavigation.MainView.BlockView.Example0"
+                },
+                "sap.ui.layout.BlockLayout/sap.m.List/sap.m.StandardListItem": {
+                    "viewName": "MainNavigation.MainView.BlockView.Example1-StandardList"
+                },
+                "sap.ui.layout.BlockLayout/sap.m.List/sap.m.ObjectListItem": {
+                    "viewName": "MainNavigation.MainView.BlockView.Example2-ObjectList"
+                },
+                "sap.ui.layout.BlockLayout/sap.m.Table/sap.m.ColumnListItem": {
+                    "viewName": "MainNavigation.MainView.BlockView.Example3-Table"
+                },
+                "sap.ui.layout.BlockLayout/sap.m.List/sap.m.CustomListItem": {
+                    "viewName": "MainNavigation.MainView.BlockView.Example4-CustomList"
+                },
+                "sap.ui.layout.BlockLayout/sap.f.GridList/sap.m.CustomListGridItem": {
+                    "viewName": "MainNavigation.MainView.BlockView.Example5-CustomListGrid"
+                },
+                "sap.ui.layout.BlockLayout/sap.f.GridList/sap.f.GridListItem": {
+                    "viewName": "MainNavigation.MainView.BlockView.Example6-GridList"
+                },
+                "sap.f.Card/sap.suite.ui.commons.networkgraph.Graph": {
+                    "viewName": "MainNavigation.MainView.CardView.Example0"
+                },
+                "sap.f.Card/sap.m.List/sap.m.StandardListItem": {
+                    "viewName": "MainNavigation.MainView.CardView.Example1-StandardList"
+                },
+                "sap.f.Card/sap.m.List/sap.m.ObjectListItem": {
+                    "viewName": "MainNavigation.MainView.CardView.Example2-ObjectList"
+                },
+                "sap.f.Card/sap.m.Table/sap.m.ColumnListItem": {
+                    "viewName": "MainNavigation.MainView.CardView.Example3-Table"
+                },
+                "sap.f.Card/sap.m.List/sap.m.CustomListItem": {
+                    "viewName": "MainNavigation.MainView.CardView.Example4-CustomList"
+                },
+                "sap.f.Card/sap.f.GridList/sap.m.CustomListItem": {
+                    "viewName": "MainNavigation.MainView.CardView.Example5-CustomListGrid"
+                },
+                "sap.f.Card/sap.f.GridList/sap.f.GridListItem": {
+                    "viewName": "MainNavigation.MainView.CardView.Example6-GridList"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem/1": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario1.Example1-StandardList"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.ObjectListItem/1": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario1.Example2-ObjectList"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem/1": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario1.Example3-Table"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.CustomListItem/1": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario1.Example4-CustomList"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.m.CustomListItem/1": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario1.Example5-CustomListGrid"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem/1": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario1.Example6-GridList"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem/2": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario2.Example1-StandardList"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.ObjectListItem/2": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario2.Example2-ObjectList"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem/2": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario2.Example3-Table"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.CustomListItem/2": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario2.Example4-CustomList"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.m.CustomListItem/2": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario2.Example5-CustomListGrid"
+                },
+                "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem/2": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario2.Example6-GridList"
+                },
+                "ObjectPageLayout/1/Object/1": {
+                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task1"
+                },
+                "ObjectPageLayout/1/Object/2": {
+                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task2"
+                },
+                "ObjectPageLayout/1/Object/3": {
+                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task3"
+                },
+                "ObjectPageLayout/1/Object/4": {
+                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task4"
+                },
+                "ObjectPageLayout/1/Object/5": {
+                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task5"
+                },
+                "ObjectPageLayout/1/Object/6": {
+                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task6"
+                },
+                "ObjectPageLayout/1/Object/7": {
+                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task7"
+                },
+                "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/scenario": {
+                    "viewName": "MainNavigation.ObjectView.ObjectScenario"
+                },
+                "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/task": {
+                    "viewName": "MainNavigation.ObjectView.ObjectTask"
+                },
+                "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee": {
+                    "viewName": "MainNavigation.ObjectView.ObjectEmployee"
+                },
+                "utility1": {
+                    "viewName": "FixedNavigation.Utility1"
+                },
+                "utility2": {
+                    "viewName": "FixedNavigation.Utility2"
                 }
             }
         }

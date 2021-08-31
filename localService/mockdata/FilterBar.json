@@ -1,0 +1,17 @@
+[
+    {
+        "ItemNo": 0,
+        "Documentation": "All",
+        "ExecutionInstanceID": "All"
+    },
+    {
+        "ItemNo": 1,
+        "Documentation": "Replicating Cost Centers from SAP S/4 HANA 1610 to Employee Centrals",
+        "ExecutionInstanceID": "5ca679d5-b8a8-11e7-9b49-00163e412ead"
+    },
+    {
+        "ItemNo": 2,
+        "Documentation": "SAP Fiori Cloud Integration",
+        "ExecutionInstanceID": "fd8cc8f5-b886-11e7-a497-00163"
+    }
+]

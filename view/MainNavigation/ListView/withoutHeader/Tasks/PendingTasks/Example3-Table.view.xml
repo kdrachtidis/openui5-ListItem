@@ -1,0 +1,53 @@
+<core:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.ListView.Tasks" 
+    xmlns:core="sap.ui.core" 
+    xmlns="sap.m">
+
+    <Table id="idProductsTable" 
+        inset="false" 
+        items="{path:'/results', templateShareable: true, filters : [{path : 'Status', operator:'Contains', value1:'Ready'}, {path : 'Status', operator:'Contains', value1:'Yet to be executed'}]}">
+
+        <columns>
+            <Column>
+                <Text text="Name" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="ID" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="Sequence" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="Type" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="Assigned To" />
+            </Column>
+            <Column minScreenWidth="Large" 
+                demandPopin="true">
+                <Text text="Status" />
+            </Column>
+        </columns>
+
+        <items>
+            <ColumnListItem type="Navigation" 
+                press="onPress">
+                <cells>
+                    <ObjectIdentifier title="{Name}" />
+                    <Text text="{Id}" />
+                    <Text text="{Sequence}" />
+                    <Text text="{Type}" />
+                    <Text text="{Assignee}" />
+                    <ObjectStatus text="{Status}" 
+                        state="{StatusInfoState}" />
+                </cells>
+            </ColumnListItem>
+        </items>
+
+    </Table>
+
+</core:View>

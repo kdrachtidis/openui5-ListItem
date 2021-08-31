@@ -1,0 +1,62 @@
+<mvc:View controllerName="DemoUXapp.controller.MainNavigation.Home"
+  height="100%" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:core="sap.ui.core" 
+  xmlns:f="sap.ui.layout.form" 
+  xmlns="sap.m">
+
+  <Page showHeader="false">
+    <content>
+
+      <l:VerticalLayout width="100%"
+        class="sapUiContentPadding">
+        <MessageStrip text="{/message}"
+          type="Information"
+          showIcon="true"
+          showCloseButton="true"
+          class="sapUiMediumMarginBottom"
+          enableFormattedText="true">
+          <Link text="Demokit"
+            target="_blank"
+            href="https://openui5.hana.ondemand.com/entity/sap.ui.layout.BlockLayout"></Link>
+        </MessageStrip>
+      </l:VerticalLayout>
+
+      <l:VerticalLayout width="100%">
+        <l:BlockLayout>
+
+          <l:BlockLayoutRow>
+            <l:BlockLayoutCell title="Standard list item">
+              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example1-StandardList" />-->
+            </l:BlockLayoutCell>
+            <l:BlockLayoutCell title="Object list item">
+              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example2-ObjectList" />-->
+            </l:BlockLayoutCell>
+          </l:BlockLayoutRow>
+
+          <l:BlockLayoutRow>
+            <l:BlockLayoutCell title="Column list item">
+              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example3-Table" />-->
+            </l:BlockLayoutCell>
+          </l:BlockLayoutRow>
+          
+          <l:BlockLayoutRow>
+            <l:BlockLayoutCell title="Custom list item">
+              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example4-CustomList" />-->
+            </l:BlockLayoutCell>
+            <l:BlockLayoutCell title="Custom list items (grid)">
+              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example5-CustomListGrid" />-->
+            </l:BlockLayoutCell>
+            <l:BlockLayoutCell title="Grid list item">
+              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example6-GridList" />-->
+            </l:BlockLayoutCell>
+          </l:BlockLayoutRow>
+
+        </l:BlockLayout>
+      </l:VerticalLayout>
+
+    </content>
+  </Page>
+
+</mvc:View>

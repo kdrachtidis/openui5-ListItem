@@ -1,0 +1,80 @@
+<mvc:View controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+  height="100%" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:f="sap.f" 
+  xmlns:card="sap.f.cards" 
+  xmlns:m="sap.m">
+
+  <m:Page showHeader="true" 
+    title="Cloud Integration Service">
+    <m:content>
+
+      <m:HBox wrap="Wrap">
+
+        <f:Card class="sapUiSmallMargin" 
+          width="24rem">
+
+          <f:header>
+            <card:Header title="Scenarios" 
+              subtitle="Running" 
+              statusText="2 items" />
+          </f:header>
+
+          <f:content>
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withoutHeader.Scenarios.Example6-GridList" />
+          </f:content>
+
+        </f:Card>
+
+        <f:Card class="sapUiSmallMargin" 
+          width="24rem">
+
+          <f:header>
+            <card:Header title="Tasks" 
+              subtitle="Pending" 
+              statusText="5 items" />
+          </f:header>
+
+          <f:content>
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withoutHeader.Tasks.PendingTasks.Example6-GridList" />
+          </f:content>
+
+        </f:Card>
+
+        <f:Card class="sapUiSmallMargin" 
+          width="24rem">
+
+          <f:header>
+            <card:Header title="Tasks" 
+              subtitle="Completed" 
+              statusText="10 items" />
+          </f:header>
+
+          <f:content>
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withoutHeader.Tasks.CompletedTasks.Example6-GridList" />
+          </f:content>
+
+        </f:Card>
+
+        <f:Card class="sapUiSmallMargin" 
+          width="24rem">
+
+          <f:header>
+            <card:Header title="Managed employees" 
+              subtitle="All" 
+              statusText="9 items" />
+          </f:header>
+
+          <f:content>
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withoutHeader.Employees.Example6-GridList" />
+          </f:content>
+
+        </f:Card>
+
+      </m:HBox>
+
+    </m:content>
+  </m:Page>
+
+</mvc:View>

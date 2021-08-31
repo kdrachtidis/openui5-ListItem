@@ -1,45 +1,14 @@
 sap.ui.define([
-  'sap/ui/core/mvc/Controller'
-], function (Controller) {
+  'sap/ui/core/mvc/Controller',
+  'sap/ui/model/json/JSONModel'
+], function (Controller, JSONModel) {
   "use strict";
 
   var Controller = Controller.extend("DemoUXapp.controller.init", {
-    model: new sap.ui.model.json.JSONModel(),
-    data: {
-      navigation: [{
-        title: 'Home',
-        icon: 'sap-icon://home',
-        key: 'MainPage'
-      }, {
-        title: 'Example 1',
-        icon: 'sap-icon://grid',
-        key: 'example1',
-        expanded: true,
-        items: [{
-            title: 'Example 2',
-            key: 'example2'
-          }, {
-            title: 'Example 3',
-            key: 'example3'
-          }]
-      }, {
-        title: 'Example 4',
-        icon: 'sap-icon://grid',
-        key: 'example4'
-      }], fixedNavigation: [{
-        title: 'Utility item',
-        icon: 'sap-icon://grid',
-        key: 'FixedPage1'
-      }, {
-        title: 'Utility item',
-        icon: 'sap-icon://grid',
-        key: 'FixedPage2'
-      }]
-    },
 
     onInit: function () {
-      this.model.setData(this.data);
-      this.getView().setModel(this.model);
+      var oModel = new JSONModel(sap.ui.require.toUrl("DemoUXapp/localService/mockdata") + "/Navigation.json");
+      this.getView().setModel(oModel);
       this._setToggleButtonTooltip(!sap.ui.Device.system.desktop);
     },
 
@@ -57,13 +26,6 @@ sap.ui.define([
       var sKey = oItem.getKey();
       // console.log(sKey);
       this.getRouter().navTo(sKey);
-    },
-
-    // EXPERIMENT
-    onPress: function (oEvent) {
-      var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-      oRouter.navTo("Root1");
-      console.log(this);
     },
 
     onSideNavButtonPress: function () {

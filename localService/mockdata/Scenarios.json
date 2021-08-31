@@ -1,0 +1,24 @@
+[
+    {
+        "ScenarioNo": 1,
+        "Name": "Replicating Cost Center",
+        "Documentation": "Replicating Cost Centers from SAP S/4 HANA 1610 to Employee Centrals",
+        "ExecutionInstanceID": "5ca679d5-b8a8-11e7-9b49-00163e412ead",
+        "CompletedTasks":"5",
+        "AllTasks": "7",
+        "Completion":"72",
+        "Status": "Running",
+        "StatusInfoState": "Success"
+    },
+    {
+        "ScenarioNo": 2,
+        "Name": "Cloud Integration",
+        "Documentation": "SAP Fiori Cloud Integration",
+        "ExecutionInstanceID": "fd8cc8f5-b886-11e7-a497-00163",
+        "CompletedTasks":"5",
+        "AllTasks": "8",
+        "Completion":"63",
+        "Status": "Running",
+        "StatusInfoState": "Success"
+    }
+]
