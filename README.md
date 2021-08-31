@@ -1,4 +1,4 @@
-# openUI5 protototype for tools with navigable variants of lists
+# openUI5 prototype with tool header and side navigation, showcasing navigable variants of lists and list items.
 
 ## Fiori Design Guidelines
 * [List](https://ux.wdf.sap.corp/fiori-design-web/list-overview/)
