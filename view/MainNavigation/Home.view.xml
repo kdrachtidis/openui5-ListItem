@@ -28,28 +28,28 @@
 
           <l:BlockLayoutRow>
             <l:BlockLayoutCell title="Standard list item">
-              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example1-StandardList" />-->
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example1-StandardList" />
             </l:BlockLayoutCell>
             <l:BlockLayoutCell title="Object list item">
-              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example2-ObjectList" />-->
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example2-ObjectList" />
             </l:BlockLayoutCell>
           </l:BlockLayoutRow>
 
           <l:BlockLayoutRow>
             <l:BlockLayoutCell title="Column list item">
-              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example3-Table" />-->
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example3-Table" />
             </l:BlockLayoutCell>
           </l:BlockLayoutRow>
           
           <l:BlockLayoutRow>
             <l:BlockLayoutCell title="Custom list item">
-              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example4-CustomList" />-->
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example4-CustomList" />
             </l:BlockLayoutCell>
             <l:BlockLayoutCell title="Custom list items (grid)">
-              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example5-CustomListGrid" />-->
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example5-CustomListGrid" />
             </l:BlockLayoutCell>
             <l:BlockLayoutCell title="Grid list item">
-              <!--<mvc:XMLView viewName="UI5FioriForTools.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example6-GridList" />-->
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios-Static.Example6-GridList" />
             </l:BlockLayoutCell>
           </l:BlockLayoutRow>
 
