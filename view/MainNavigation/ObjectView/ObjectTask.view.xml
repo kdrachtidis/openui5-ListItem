@@ -1,0 +1,154 @@
+<mvc:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.ObjectView.ObjectTask" 
+    xmlns:core="sap.ui.core" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:l="sap.ui.layout" 
+    xmlns:f="sap.f" 
+    xmlns:m="sap.m" 
+    xmlns="sap.uxap">
+
+    <m:Page title="Cloud Integration Service">
+        <m:content>
+
+            <ObjectPageLayout enableLazyLoading="true" 
+                headerContentPinnable="true">
+                <headerTitle>
+                    <ObjectPageDynamicHeaderTitle>
+
+                        <breadcrumbs>
+                            <m:Breadcrumbs>
+                                <m:Link text='Integration Scenarios' />
+                                <m:Link text='Tasks' />
+                            </m:Breadcrumbs>
+                        </breadcrumbs>
+
+                        <expandedHeading>
+                            <m:FlexBox wrap="Wrap" 
+                                fitContainer="true" 
+                                alignItems="Center">
+                                <m:Title text="{Name}" 
+                                    wrapping="true"></m:Title>
+                            </m:FlexBox>
+                        </expandedHeading>
+
+                        <snappedHeading>
+                            <m:FlexBox wrap="Wrap" 
+                                fitContainer="true" 
+                                alignItems="Center">
+                                <m:FlexBox wrap="NoWrap" 
+                                    fitContainer="true" 
+                                    alignItems="Center" 
+                                    class="sapUiTinyMarginEnd">
+                                    <f:Avatar src="sap-icon://workflow-tasks" 
+                                        displayShape="Circle" 
+                                        displaySize="S" 
+                                        class="sapUiTinyMarginEnd" />
+                                    <m:Title text="{Name}" 
+                                        wrapping="true"></m:Title>
+                                </m:FlexBox>
+                            </m:FlexBox>
+                        </snappedHeading>
+
+                        <expandedContent>
+                            <m:Text text="{ScenarioName}" />
+                        </expandedContent>
+
+                        <snappedContent>
+                            <m:Text text="{ScenarioName}" />
+                        </snappedContent>
+
+                        <actions>
+                            <ObjectPageHeaderActionButton text="Set Complete" 
+                                type="Emphasized" 
+                                hideText="false" />
+                            <ObjectPageHeaderActionButton text="Show Logs" 
+                                type="Transparent" 
+                                hideText="false" />
+                            <ObjectPageHeaderActionButton icon="sap-icon://action" 
+                                type="Transparent" 
+                                text="Share" 
+                                tooltip="Share" />
+                        </actions>
+
+                        <navigationActions>
+                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-up" 
+                                type="Transparent" 
+                                tooltip="Move up" />
+                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-down" 
+                                type="Transparent" 
+                                tooltip="Move down" />
+                        </navigationActions>
+
+                    </ObjectPageDynamicHeaderTitle>
+
+                </headerTitle>
+                <headerContent>
+                    <m:FlexBox wrap="Wrap" 
+                        fitContainer="true" 
+                        alignItems="Stretch">
+
+                        <f:Avatar class="sapUiSmallMarginEnd sapUiSmallMarginTop" 
+                            src="sap-icon://workflow-tasks" 
+                            displaySize="L">
+                        </f:Avatar>
+
+                        <l:VerticalLayout class="sapUiSmallMarginEnd sapUiSmallMarginTop">
+                            <m:ObjectStatus title="Id" 
+                                text="{Id}" />
+                            <m:ObjectStatus title="Sequence" 
+                                text="{Sequence}" />
+                            <m:ObjectStatus title="Type" 
+                                text="{Type}" />
+                            <m:ObjectStatus title="Role" 
+                                text="{Role}" />
+                        </l:VerticalLayout>
+
+                        <l:VerticalLayout class="sapUiSmallMarginEnd sapUiSmallMarginTop">
+                            <m:ObjectStatus title="Assigned to" 
+                                text="{Assignee}" />
+                            <m:ObjectStatus title="Created on" 
+                                text="{Date}" />
+                        </l:VerticalLayout>
+
+                        <l:VerticalLayout class="sapUiMediumMarginBeginEnd sapUiSmallMarginTop">
+                            <m:ObjectAttribute title="Status" />
+                            <m:ObjectStatus class="sapMObjectStatusLarge" 
+                                text="{Status}" 
+                                state="{StatusInfoState}" />
+                        </l:VerticalLayout>
+                    </m:FlexBox>
+                </headerContent>
+
+                <sections>
+
+                    <ObjectPageSection titleUppercase="false">
+                        <subSections>
+                            <ObjectPageSubSection mode="Expanded" 
+                                title="Description">
+                                <blocks>
+
+                                    <m:Text text="Description..." />
+
+                                </blocks>
+                            </ObjectPageSubSection>
+                        </subSections>
+                    </ObjectPageSection>
+
+                    <ObjectPageSection titleUppercase="false">
+                        <subSections>
+                            <ObjectPageSubSection title="Parameters">
+                                <blocks>
+
+                                    <m:Text text="Parameters..." />
+
+                                </blocks>
+                            </ObjectPageSubSection>
+                        </subSections>
+                    </ObjectPageSection>
+
+                </sections>
+            </ObjectPageLayout>
+
+        </m:content>
+    </m:Page>
+</mvc:View>
