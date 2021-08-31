@@ -1,0 +1,21 @@
+<mvc:View height="100%" 
+  controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:m="sap.m" 
+  xmlns="sap.uxap">
+
+    <m:List mode="" 
+        headerText="Walkthrough" 
+        growing="true">
+        <m:StandardListItem title="To adapt the copied integration flow to your needs, click the 'Edit view' symbol in the left upper corner." />
+        <m:StandardListItem title="To find your copied integration flow, enter in the 'Filter' text field in the right upper area: 'ERP to SuccessFactors Employee Central Cost Center'." />
+        <m:StandardListItem title="To navigate to your iFlow, click on 'ERP to SuccessFactors Employee Central Cost Center'." />
+        <m:StandardListItem title="To get to the configurable parts of the package, click 'ARTIFACTS' tab." />
+        <m:StandardListItem title="On the right side, click the arrow symbol to get the context menu opened." />
+        <m:StandardListItem title="Select 'Configure' from the menu to get a window opened, where you can specify the parameters for the configuration." />
+        <m:StandardListItem title="Click the 'Sender' tab. The Sender in this scenario is the S/4HANA system." />
+        <m:StandardListItem title="In the 'Sender' field enter 'SAP_ERP'." />
+        <m:StandardListItem title="In the 'Adapter Type' field enter 'iDOC'." />
+    </m:List>
+
+</mvc:View>

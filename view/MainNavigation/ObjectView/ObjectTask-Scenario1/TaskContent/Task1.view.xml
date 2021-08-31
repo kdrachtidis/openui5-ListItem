@@ -1,0 +1,60 @@
+<mvc:View height="100%" 
+  controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+  xmlns:core="sap.ui.core" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:form="sap.ui.layout.form" 
+  xmlns:m="sap.m" 
+  xmlns="sap.uxap">
+
+  <m:VBox class="sapUiSmallMargin">
+    <form:SimpleForm title="Workflow task onwers" 
+      editable="true" 
+      layout="ResponsiveGridLayout" 
+      labelSpanXL="4" 
+      labelSpanL="3" 
+      labelSpanM="4" 
+      labelSpanS="12" 
+      adjustLabelSpan="false" 
+      emptySpanXL="0" 
+      emptySpanL="4" 
+      emptySpanM="0" 
+      emptySpanS="0" 
+      columnsXL="2" 
+      columnsL="1" 
+      columnsM="1" 
+      singleContainerFullSize="false">
+      <m:Label text="Parameterization" />
+      <m:MultiInput type="Text" 
+        placeholder="Type name of owner ..." 
+        showValueHelp="false" 
+        suggestionItems="{
+                          path: '/UserCollection',
+                          sorter: { path: 'Name' }
+                        }">
+        <core:Item text="{Name}" />
+      </m:MultiInput>
+      <m:Label text="SAP Cloud Platform Integration Configuration" />
+      <m:MultiInput type="Text" 
+        placeholder="Type name of owner ..." 
+        showValueHelp="false" 
+        suggestionItems="{
+                          path: '/UserCollection',
+                          sorter: { path: 'Name' }
+                        }">
+        <core:Item text="{Name}" />
+      </m:MultiInput>
+      <m:Label text="SAP S/4HANA Configuration" />
+      <m:MultiInput type="Text" 
+        placeholder="Type name of owner ..." 
+        showValueHelp="false" 
+        suggestionItems="{
+                          path: '/UserCollection',
+                          sorter: { path: 'Name' }
+                        }">
+        <core:Item text="{Name}" />
+      </m:MultiInput>
+    </form:SimpleForm>
+  </m:VBox>
+
+</mvc:View>

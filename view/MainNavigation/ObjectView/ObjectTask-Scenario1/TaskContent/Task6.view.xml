@@ -1,0 +1,25 @@
+<mvc:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:m="sap.m" 
+    xmlns="sap.uxap">
+
+    <m:List mode="" 
+        headerText="Walkthrough" 
+        growing="true">
+        <m:StandardListItem title="Log on to your SAP S/4HANA system." />
+        <m:StandardListItem title="In field 'Task List' enter 'SAP_SAP2GATEWAY_TRUSTED_CONFIG'." />
+        <m:StandardListItem title="Click the 'Generate Task List Run' symbol." />
+        <m:StandardListItem title="In the 'Task List' table click on the 'Change Parameters' icon in the 'Parameter' column." />
+        <m:StandardListItem title="In field 'RFC Destination' enter 'GATEWAY_TRUSTED_CON'." />
+        <m:StandardListItem title="In field 'Target Server' enter 'ldcis2y'." />
+        <m:StandardListItem title="In field 'Instance No.'' enter '29'." />
+        <m:StandardListItem title="In field 'Language' enter 'en'." />
+        <m:StandardListItem title="In field 'Client' enter '300'." />
+        <m:StandardListItem title="Click on the 'Save' button." />
+        <m:StandardListItem title="Navigate back." />
+        <m:StandardListItem title="Click the 'Generate Task List Run' symbol." />
+        <m:StandardListItem title="Close the application." />
+    </m:List>
+
+</mvc:View>

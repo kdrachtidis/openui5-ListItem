@@ -1,0 +1,20 @@
+<mvc:View height="100%" 
+  controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:m="sap.m" 
+  xmlns="sap.uxap">
+
+  <m:List mode="" 
+    headerText="Walkthrough" 
+    growing="true">
+    <m:StandardListItem title="You need to navigate to the prepackaged integration content and create you own copy of the integration flow." />
+    <m:StandardListItem title="Click the 'Discover View' symbol in the left upper corner." />
+    <m:StandardListItem title="Τo see available prepackaged integration content click 'All'." />
+    <m:StandardListItem title="To find integration flow for the cost center scenario, enter 'Cost center' in the Searchtext field." />
+    <m:StandardListItem title="To save the changes, click 'ΟΚ'." />
+    <m:StandardListItem title="Click on 'ERP to SuccessFactors Employee Central Cost Center‘." />
+    <m:StandardListItem title="To make a copy of the integration flow and to adapt it to your requirements, click 'Copy' in the right upper corner." />
+    <m:StandardListItem title="To save the changes, click 'ΟΚ'." />
+  </m:List>
+
+</mvc:View>

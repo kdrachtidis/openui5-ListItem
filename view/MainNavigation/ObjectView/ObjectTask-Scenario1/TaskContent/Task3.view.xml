@@ -1,0 +1,27 @@
+<mvc:View height="100%" 
+  controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:m="sap.m" 
+  xmlns="sap.uxap">
+
+  <m:List headerText="Walkthrough" 
+    growing="true">
+    <m:StandardListItem title="Click on the CPI tenant URL to access the CPI tenant 'CPI_tenant_URL'." />
+    <m:StandardListItem title="Enter your CPI user id 'P_User_ID'." />
+    <m:StandardListItem title="Enter your CPI user password." />
+    <m:StandardListItem title="Click Log On." />
+    <m:StandardListItem title="In the left upper area click on 'Operations View'." />
+    <m:StandardListItem title="Under Manage Security click Security Material tile." />
+    <m:StandardListItem title="You see a list of credentials. In the right upper corner click 'Add' to add your credential artifact." />
+    <m:StandardListItem title="In the menu, click on 'User Credentials' to open a dialog for user credentials." />
+    <m:StandardListItem title="Enter in the text field 'Name' the 'GR###_CRED'." />
+    <m:StandardListItem title="Enter in the text field 'Description' the 'GR### - User Credentials'." />
+    <m:StandardListItem title="Enter in the text field 'User' the 'SFSF_User_ID'." />
+    <m:StandardListItem title="Enter your SFSF user password in the text field 'Password'." />
+    <m:StandardListItem title="Repeat password." />
+    <m:StandardListItem title="Enable checkbox 'SuccessFactors'. Then a further field 'Company ID' is added to the dialog." />
+    <m:StandardListItem title="Enter in the text field 'Company ID' the 'SFSF_Company_ID'." />
+    <m:StandardListItem title="To deploy credentials artifact, click on 'Deploy'." />
+  </m:List>
+
+</mvc:View>

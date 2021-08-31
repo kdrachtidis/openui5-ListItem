@@ -1,0 +1,122 @@
+<mvc:View height="100%" 
+  controllerName="DemoUXapp.controller.MainNavigation.MainView" 
+  xmlns:core="sap.ui.core" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:form="sap.ui.layout.form" 
+  xmlns:m="sap.m" 
+  xmlns="sap.uxap">
+
+  <m:VBox class="sapUiSmallMargin">
+    <form:SimpleForm title="SAP Cloud Platform Integration" 
+      class="sapUiSmallMarginBottom" 
+      editable="true" 
+      layout="ResponsiveGridLayout" 
+      labelSpanXL="4" 
+      labelSpanL="3" 
+      labelSpanM="4" 
+      labelSpanS="12" 
+      adjustLabelSpan="false" 
+      emptySpanXL="0" 
+      emptySpanL="4" 
+      emptySpanM="0" 
+      emptySpanS="0" 
+      columnsXL="2" 
+      columnsL="1" 
+      columnsM="1" 
+      singleContainerFullSize="false">
+      <m:Label text="Use External Cost Center" />
+      <m:CheckBox text=""></m:CheckBox>
+      <m:Label text="Default Language" />
+      <m:ComboBox>
+        <core:Item text="zh-CN" />
+        <core:Item text="de_DE" />
+        <core:Item text="en_EN" />
+        <core:Item text="en_US" />
+        <core:Item text="fr_FR" />
+        <core:Item text="pt_BR" />
+      </m:ComboBox>
+      <m:Label text="Additional Languages" />
+      <m:MultiInput type="Text" 
+        placeholder="Type language ..." 
+        showValueHelp="false" 
+        suggestionItems="{
+                          path: 'languages>/LanguageCollection',
+                          sorter: { path: 'languages>Name' }
+                        }">
+        <core:Item text="{languages>Name}" />
+      </m:MultiInput>
+      <m:Label text="Enable Payload Logging" />
+      <m:CheckBox text=""></m:CheckBox>
+      <m:Label text="SAP Cloud Platform Integration User ID" />
+      <m:MultiInput type="Text" 
+        placeholder="Type name of user ..." 
+        showValueHelp="false">
+        <core:Item text="P_User_ID" />
+      </m:MultiInput>
+      <m:Label text="SFSF API User" />
+      <m:MultiInput type="Text" 
+        placeholder="Type name of user ..." 
+        showValueHelp="false">
+        <core:Item text="SFSF_User_ID" />
+      </m:MultiInput>
+      <m:Label text="Package Name" />
+      <m:Input type="Text" 
+        enabled="true" 
+        editable="false" 
+        value="ERP to SuccessFactors Employee Central Cost Center" />
+      <m:Label text="Sender Address:" />
+      <m:Input type="inputUrl" 
+        placeholder="Enter Address..." 
+        enabled="true" 
+        editable="true" 
+        value="/ERP_to_EC_CostCenter_Replication" />
+    </form:SimpleForm>
+    <form:SimpleForm title="SAP S/4HANA" 
+      editable="true" 
+      layout="ResponsiveGridLayout" 
+      labelSpanXL="4" 
+      labelSpanL="3" 
+      labelSpanM="4" 
+      labelSpanS="12" 
+      adjustLabelSpan="false" 
+      emptySpanXL="0" 
+      emptySpanL="4" 
+      emptySpanM="0" 
+      emptySpanS="0" 
+      columnsXL="2" 
+      columnsL="1" 
+      columnsM="1" 
+      singleContainerFullSize="false">
+      <m:Label text="Gateway Host" />
+      <m:Input type="Text" 
+        enabled="true" 
+        editable="false" 
+        value="ldcis2y" />
+      <m:Label text="Gateway Host" />
+      <m:Input type="Text" 
+        enabled="true" 
+        editable="false" 
+        value="29" />
+      <m:Label text="Gateway Trusted RFC Connection" />
+      <m:Input type="Text" 
+        placeholder="Enter Connection..." 
+        enabled="true" 
+        editable="true" 
+        value="GATEWAY_TRUSTED_CON" />
+      <m:Label text="Gateway Logon Language" />
+      <m:Input type="Text" 
+        placeholder="Enter Language..." 
+        enabled="true" 
+        editable="true" 
+        value="en_EN" />
+      <m:Label text="Gateway Logon Client" />
+      <m:Input type="Text" 
+        placeholder="Enter Client..." 
+        enabled="true" 
+        editable="true" 
+        value="300" />
+    </form:SimpleForm>
+  </m:VBox>
+
+</mvc:View>
