@@ -86,11 +86,6 @@
                     "target": "sap.f.GridList/sap.f.GridListItem"
                 },
                 {
-                    "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.suite.ui.commons.networkgraph.Graph",
-                    "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.suite.ui.commons.networkgraph.Graph",
-                    "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.suite.ui.commons.networkgraph.Graph"
-                },
-                {
                     "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.StandardListItem",
                     "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.StandardListItem",
                     "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.StandardListItem"
@@ -119,11 +114,6 @@
                     "pattern": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.f.GridListItem",
                     "name": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.f.GridListItem",
                     "target": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.f.GridListItem"
-                },
-                {
-                    "pattern": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.suite.ui.commons.networkgraph.Graph",
-                    "name": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.suite.ui.commons.networkgraph.Graph",
-                    "target": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.suite.ui.commons.networkgraph.Graph"
                 },
                 {
                     "pattern": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.StandardListItem",
@@ -156,11 +146,6 @@
                     "target": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.f.GridListItem"
                 },
                 {
-                    "pattern": "sap.ui.layout.BlockLayout/sap.suite.ui.commons.networkgraph.Graph",
-                    "name": "sap.ui.layout.BlockLayout/sap.suite.ui.commons.networkgraph.Graph",
-                    "target": "sap.ui.layout.BlockLayout/sap.suite.ui.commons.networkgraph.Graph"
-                },
-                {
                     "pattern": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.StandardListItem",
                     "name": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.StandardListItem",
                     "target": "sap.ui.layout.BlockLayout/sap.m.List/sap.m.StandardListItem"
@@ -189,11 +174,6 @@
                     "pattern": "sap.ui.layout.BlockLayout/sap.f.GridList/sap.f.GridListItem",
                     "name": "sap.ui.layout.BlockLayout/sap.f.GridList/sap.f.GridListItem",
                     "target": "sap.ui.layout.BlockLayout/sap.f.GridList/sap.f.GridListItem"
-                },
-                {
-                    "pattern": "sap.f.Card/sap.suite.ui.commons.networkgraph.Graph",
-                    "name": "sap.f.Card/sap.suite.ui.commons.networkgraph.Graph",
-                    "target": "sap.f.Card/sap.suite.ui.commons.networkgraph.Graph"
                 },
                 {
                     "pattern": "sap.f.Card/sap.m.List/sap.m.StandardListItem",
@@ -368,9 +348,6 @@
                 "sap.f.GridList/sap.f.GridListItem": {
                     "viewName": "MainNavigation.MainView.SingleView.Example6-GridList"
                 },
-                "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.suite.ui.commons.networkgraph.Graph": {
-                    "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example0"
-                },
                 "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.m.List/sap.m.StandardListItem": {
                     "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example1-StandardList"
                 },
@@ -388,9 +365,6 @@
                 },
                 "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.f.GridList/sap.f.GridListItem": {
                     "viewName": "MainNavigation.MainView.SplitView.Horizontal.Example6-GridList"
-                },
-                "sap.ui.layout.ResponsiveSplitter/Vertical/sap.suite.ui.commons.networkgraph.Graph": {
-                    "viewName": "MainNavigation.MainView.SplitView.Vertical.Example0"
                 },
                 "sap.ui.layout.ResponsiveSplitter/Vertical/sap.m.List/sap.m.StandardListItem": {
                     "viewName": "MainNavigation.MainView.SplitView.Vertical.Example1-StandardList"
@@ -410,9 +384,6 @@
                 "sap.ui.layout.ResponsiveSplitter/Vertical/sap.f.GridList/sap.f.GridListItem": {
                     "viewName": "MainNavigation.MainView.SplitView.Vertical.Example6-GridList"
                 },
-                "sap.ui.layout.BlockLayout/sap.suite.ui.commons.networkgraph.Graph": {
-                    "viewName": "MainNavigation.MainView.BlockView.Example0"
-                },
                 "sap.ui.layout.BlockLayout/sap.m.List/sap.m.StandardListItem": {
                     "viewName": "MainNavigation.MainView.BlockView.Example1-StandardList"
                 },
@@ -430,9 +401,6 @@
                 },
                 "sap.ui.layout.BlockLayout/sap.f.GridList/sap.f.GridListItem": {
                     "viewName": "MainNavigation.MainView.BlockView.Example6-GridList"
-                },
-                "sap.f.Card/sap.suite.ui.commons.networkgraph.Graph": {
-                    "viewName": "MainNavigation.MainView.CardView.Example0"
                 },
                 "sap.f.Card/sap.m.List/sap.m.StandardListItem": {
                     "viewName": "MainNavigation.MainView.CardView.Example1-StandardList"

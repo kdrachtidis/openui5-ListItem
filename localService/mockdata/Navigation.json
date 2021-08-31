@@ -39,7 +39,6 @@
     {
       "title": "Horizontal Split Views",
       "icon": "sap-icon://table-column",
-      "key": "sap.ui.layout.ResponsiveSplitter/Horizontal/sap.suite.ui.commons.networkgraph.Graph",
       "expanded": false,
       "items": [
         {
@@ -71,7 +70,6 @@
     {
       "title": "Vertical Split Views",
       "icon": "sap-icon://table-row",
-      "key": "sap.ui.layout.ResponsiveSplitter/Vertical/sap.suite.ui.commons.networkgraph.Graph",
       "expanded": false,
       "items": [
         {
@@ -103,7 +101,6 @@
     {
       "title": "Block Views",
       "icon": "sap-icon://table-view",
-      "key": "sap.ui.layout.BlockLayout/sap.suite.ui.commons.networkgraph.Graph",
       "expanded": false,
       "items": [
         {
@@ -135,7 +132,6 @@
     {
       "title": "Card Views",
       "icon": "sap-icon://table-chart",
-      "key": "sap.f.Card/sap.suite.ui.commons.networkgraph.Graph",
       "expanded": false,
       "items": [
         {
