@@ -1,7 +1,8 @@
-# Empty openUI5 prototype for tools
-Prototype with tool header and side navigation, including only one main-navigation item.
+# openUI5 protototype for tools with navigable variants of lists
 
 ## Fiori Design Guidelines
-* [Tool Development Overview](https://experience.sap.com/fiori-design-web/overview/)
-* [Tool header](https://experience.sap.com/fiori-design-web/tool-header)
-* [Side navigation](https://experience.sap.com/fiori-design-web/side-navigation)
+* [List](https://ux.wdf.sap.corp/fiori-design-web/list-overview/)
+* [Responsive Table](https://ux.wdf.sap.corp/fiori-design-web/responsive-table/)
+
+* [Object List Item](https://ux.wdf.sap.corp/fiori-design-web/object-list-item/)
+* [Standard List Item](https://ux.wdf.sap.corp/fiori-design-web/standard-list-item/)
