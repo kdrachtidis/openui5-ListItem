@@ -1,0 +1,102 @@
+<mvc:View height="100%" 
+  controllerName="DemoUXapp.controller.MainNavigation.SingleView" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:core="sap.ui.core" 
+  xmlns:layout="sap.ui.layout" 
+  xmlns="sap.m" 
+  xmlns:f="sap.f" 
+  xmlns:fb="sap.ui.comp.filterbar" 
+  xmlns:vm="sap.ui.comp.variants">
+
+  <Page title="Cloud Integration Service">
+    <content>
+
+      <f:DynamicPage id="dynamicPageId" 
+        class="sapUiContentPadding">
+
+        <f:title>
+
+          <f:DynamicPageTitle>
+
+            <f:heading>
+              <vm:VariantManagement standardItemText="My Scenarios">
+              </vm:VariantManagement>
+            </f:heading>
+
+            <f:actions>
+              <ToolbarSpacer />
+              <Button icon="sap-icon://action" 
+                type="Transparent" />
+            </f:actions>
+
+          </f:DynamicPageTitle>
+
+        </f:title>
+        <f:header>
+
+          <f:DynamicPageHeader pinnable="true">
+            <f:content>
+
+              <fb:FilterBar showGoOnFB="true">
+                <fb:filterItems>
+
+                  <fb:FilterItem name="A" 
+                    label="Name">
+                    <fb:control>
+                      <SearchField />
+                    </fb:control>
+                  </fb:FilterItem>
+
+                  <fb:FilterItem name="B" 
+                    label="Status">
+                    <fb:control>
+                      <Select forceSelection="true">
+                        <core:Item key="{ItemNo}" 
+                          text="Any" />
+                        <core:Item key="002" 
+                          text="Running" />
+                        <core:Item key="003" 
+                          text="Stopped" />
+                      </Select>
+                    </fb:control>
+                  </fb:FilterItem>
+
+                  <fb:FilterItem name="C" 
+                    label="Documentation">
+                    <fb:control>
+                      <Select items="{path:'/'}">
+                        <core:Item key="{ItemNo}" 
+                          text="{Documentation}" />
+                      </Select>
+                    </fb:control>
+                  </fb:FilterItem>
+
+                  <fb:FilterItem name="D" 
+                    label="Execution Instance ID">
+                    <fb:control>
+                      <Select items="{path:'/'}">
+                        <core:Item key="{ItemNo}" 
+                          text="{ExecutionInstanceID}" />
+                      </Select>
+                    </fb:control>
+                  </fb:FilterItem>
+
+                </fb:filterItems>
+              </fb:FilterBar>
+
+            </f:content>
+          </f:DynamicPageHeader>
+
+        </f:header>
+        <f:content>
+
+          <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios-Static/Example6-GridList" />
+
+        </f:content>
+
+      </f:DynamicPage>
+
+    </content>
+  </Page>
+  
+</mvc:View>
