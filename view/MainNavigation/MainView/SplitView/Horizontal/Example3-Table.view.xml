@@ -4,7 +4,7 @@
   xmlns:m="sap.m">
 
   <m:Page showHeader="true" 
-    title="Cloud Integration Service">
+    title="{i18n>appTitle}">
 
     <m:content>
       <l:ResponsiveSplitter defaultPane="default">
