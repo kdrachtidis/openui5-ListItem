@@ -1,24 +1,112 @@
 [
     {
-        "ScenarioNo": 1,
-        "Name": "Replicating Cost Center",
-        "Documentation": "Replicating Cost Centers from SAP S/4 HANA 1610 to Employee Centrals",
-        "ExecutionInstanceID": "5ca679d5-b8a8-11e7-9b49-00163e412ead",
-        "CompletedTasks":"5",
-        "AllTasks": "7",
-        "Completion":"72",
+        "ScenarioNo": 0,
+        "Name": "Scenario 612f8d2d2ee43ec01f6aa57d",
+        "Documentation": "Scenario Type B",
+        "ExecutionInstanceID": "1fb6ca38-b3c6-405e-93df-f81ca8dca2c5",
+        "CompletedTasks": 12,
+        "AllTasks": 15,
+        "Completion": 80,
         "Status": "Running",
-        "StatusInfoState": "Success"
+        "StatusInfoState": "None"
+    },
+    {
+        "ScenarioNo": 1,
+        "Name": "Scenario 612f8d2d16dfd8624ef32d15",
+        "Documentation": "Scenario Type C",
+        "ExecutionInstanceID": "5f07c85e-a4f2-4623-85cb-17469c3e616a",
+        "CompletedTasks": 9,
+        "AllTasks": 15,
+        "Completion": 60,
+        "Status": "Running",
+        "StatusInfoState": "None"
     },
     {
         "ScenarioNo": 2,
-        "Name": "Cloud Integration",
-        "Documentation": "SAP Fiori Cloud Integration",
-        "ExecutionInstanceID": "fd8cc8f5-b886-11e7-a497-00163",
-        "CompletedTasks":"5",
-        "AllTasks": "8",
-        "Completion":"63",
+        "Name": "Scenario 612f8d2d769bbd5ac7423096",
+        "Documentation": "Scenario Type C",
+        "ExecutionInstanceID": "776d5baa-8c27-4749-bbf9-37d86115431f",
+        "CompletedTasks": 7,
+        "AllTasks": 15,
+        "Completion": 46.666666666666664,
         "Status": "Running",
-        "StatusInfoState": "Success"
+        "StatusInfoState": "None"
+    },
+    {
+        "ScenarioNo": 3,
+        "Name": "Scenario 612f8d2de4cc029e7814b26e",
+        "Documentation": "Scenario Type D",
+        "ExecutionInstanceID": "9fc155eb-873d-4721-bff1-2b94087da717",
+        "CompletedTasks": 0,
+        "AllTasks": 15,
+        "Completion": 0,
+        "Status": "Not yet started",
+        "StatusInfoState": "Warning"
+    },
+    {
+        "ScenarioNo": 4,
+        "Name": "Scenario 612f8d2de9e0fb0c2310a1b2",
+        "Documentation": "Scenario Type D",
+        "ExecutionInstanceID": "202aa6c5-46fb-44bb-842c-db382958cbb2",
+        "CompletedTasks": 1,
+        "AllTasks": 15,
+        "Completion": 6.666666666666667,
+        "Status": "Running",
+        "StatusInfoState": "None"
+    },
+    {
+        "ScenarioNo": 5,
+        "Name": "Scenario 612f8d2df07946655eed2d48",
+        "Documentation": "Scenario Type B",
+        "ExecutionInstanceID": "69fcddb3-e7c7-4d9f-8603-99d4801274da",
+        "CompletedTasks": 0,
+        "AllTasks": 15,
+        "Completion": 0,
+        "Status": "Not yet started",
+        "StatusInfoState": "Warning"
+    },
+    {
+        "ScenarioNo": 6,
+        "Name": "Scenario 612f8d2dccad45a6f4def5f0",
+        "Documentation": "Scenario Type A",
+        "ExecutionInstanceID": "2e649e1a-a0d8-4b16-a4a3-20f8a6b7264b",
+        "CompletedTasks": 5,
+        "AllTasks": 15,
+        "Completion": 33.333333333333336,
+        "Status": "Running",
+        "StatusInfoState": "None"
+    },
+    {
+        "ScenarioNo": 7,
+        "Name": "Scenario 612f8d2d1052126aaa755a12",
+        "Documentation": "Scenario Type C",
+        "ExecutionInstanceID": "34195bb4-9c01-449b-9214-463f99ae7d8a",
+        "CompletedTasks": 9,
+        "AllTasks": 15,
+        "Completion": 60,
+        "Status": "Running",
+        "StatusInfoState": "None"
+    },
+    {
+        "ScenarioNo": 8,
+        "Name": "Scenario 612f8d2dc0a0c88b66567744",
+        "Documentation": "Scenario Type B",
+        "ExecutionInstanceID": "7e508779-33a8-4bde-82ef-0bd37815816f",
+        "CompletedTasks": 10,
+        "AllTasks": 15,
+        "Completion": 66.66666666666667,
+        "Status": "Running",
+        "StatusInfoState": "None"
+    },
+    {
+        "ScenarioNo": 9,
+        "Name": "Scenario 612f8d2da5c94e90e9a08048",
+        "Documentation": "Scenario Type C",
+        "ExecutionInstanceID": "f5b01be4-201f-48a1-b04d-1f729d9bc94c",
+        "CompletedTasks": 11,
+        "AllTasks": 15,
+        "Completion": 73.33333333333333,
+        "Status": "Running",
+        "StatusInfoState": "None"
     }
 ]
