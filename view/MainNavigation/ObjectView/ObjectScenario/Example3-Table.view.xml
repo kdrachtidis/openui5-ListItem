@@ -92,7 +92,7 @@
                 text="{Status}" 
                 state="{StatusInfoState}" />
               <m:ProgressIndicator percentValue="{Completion}" 
-                displayValue="{CompletedTasks}/{/AllTasks}" 
+                displayValue="{CompletedTasks}/{AllTasks}" 
                 showValue="true" 
                 state="None" />
             </l:VerticalLayout>
