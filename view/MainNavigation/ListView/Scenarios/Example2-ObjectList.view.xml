@@ -1,0 +1,30 @@
+<mvc:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.ListView.Scenarios.Example2-ObjectList" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+
+    <List headerText="{i18n>scenarioItems} ({=${/results}.length})" 
+        items="{path:'/results', templateShareable: true}">
+        <items>
+            <ObjectListItem icon="sap-icon://activities" 
+                type="Navigation" 
+                press="onPress" 
+                intro="{Documentation}" 
+                title="{Name}" 
+                number="{AllTasks}" 
+                numberUnit="Tasks" 
+                tooltip="{Name} - {Documentation}">
+                <firstStatus>
+                    <ObjectStatus text="{Status}" 
+                        state="{StatusInfoState}" />
+                </firstStatus>
+                <attributes>
+                    <ObjectAttribute title="Execution Instance ID" 
+                        text="{ExecutionInstanceID}" />
+                </attributes>
+            </ObjectListItem>
+        </items>
+    </List>
+    
+</mvc:View>
+ 

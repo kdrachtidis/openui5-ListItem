@@ -236,46 +236,6 @@
                     "target": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem"
                 },
                 {
-                    "pattern": "ObjectPageLayout/1/Object/1",
-                    "name": "ObjectPageLayout/1/Object/1",
-                    "target": "ObjectPageLayout/1/Object/1"
-                },
-                {
-                    "pattern": "ObjectPageLayout/1/Object/2",
-                    "name": "ObjectPageLayout/1/Object/2",
-                    "target": "ObjectPageLayout/1/Object/2"
-                },
-                {
-                    "pattern": "ObjectPageLayout/1/Object/3",
-                    "name": "ObjectPageLayout/1/Object/3",
-                    "target": "ObjectPageLayout/1/Object/3"
-                },
-                {
-                    "pattern": "ObjectPageLayout/1/Object/4",
-                    "name": "ObjectPageLayout/1/Object/4",
-                    "target": "ObjectPageLayout/1/Object/4"
-                },
-                {
-                    "pattern": "ObjectPageLayout/1/Object/5",
-                    "name": "ObjectPageLayout/1/Object/5",
-                    "target": "ObjectPageLayout/1/Object/5"
-                },
-                {
-                    "pattern": "ObjectPageLayout/1/Object/6",
-                    "name": "ObjectPageLayout/1/Object/6",
-                    "target": "ObjectPageLayout/1/Object/6"
-                },
-                {
-                    "pattern": "ObjectPageLayout/1/Object/7",
-                    "name": "ObjectPageLayout/1/Object/7",
-                    "target": "ObjectPageLayout/1/Object/7"
-                },
-                {
-                    "pattern": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/scenario/{scenarioId}",
-                    "name": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/scenario",
-                    "target": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/scenario"
-                },
-                {
                     "pattern": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee/{employeeId}",
                     "name": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee",
                     "target": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee"
@@ -391,43 +351,22 @@
                     "viewName": "MainNavigation.MainView.CardView.Example6-GridList"
                 },
                 "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem": {
-                    "viewName": "MainNavigation.ObjectView.ObjectScenario.Example1-StandardList"
+                    "viewName": "MainNavigation.ObjectView.Scenarios.Example1-StandardList"
                 },
                 "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.ObjectListItem": {
-                    "viewName": "MainNavigation.ObjectView.ObjectScenario.Example2-ObjectList"
+                    "viewName": "MainNavigation.ObjectView.Scenarios.Example2-ObjectList"
                 },
                 "sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem": {
-                    "viewName": "MainNavigation.ObjectView.ObjectScenario.Example3-Table"
+                    "viewName": "MainNavigation.ObjectView.Scenarios.Example3-Table"
                 },
                 "sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.CustomListItem": {
-                    "viewName": "MainNavigation.ObjectView.ObjectScenario.Example4-CustomList"
+                    "viewName": "MainNavigation.ObjectView.Scenarios.Example4-CustomList"
                 },
                 "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.m.CustomListItem": {
-                    "viewName": "MainNavigation.ObjectView.ObjectScenario.Example5-CustomListGrid"
+                    "viewName": "MainNavigation.ObjectView.Scenarios.Example5-CustomListGrid"
                 },
                 "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem": {
-                    "viewName": "MainNavigation.ObjectView.ObjectScenario.Example6-GridList"
-                },
-                "ObjectPageLayout/1/Object/1": {
-                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task1"
-                },
-                "ObjectPageLayout/1/Object/2": {
-                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task2"
-                },
-                "ObjectPageLayout/1/Object/3": {
-                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task3"
-                },
-                "ObjectPageLayout/1/Object/4": {
-                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task4"
-                },
-                "ObjectPageLayout/1/Object/5": {
-                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task5"
-                },
-                "ObjectPageLayout/1/Object/6": {
-                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task6"
-                },
-                "ObjectPageLayout/1/Object/7": {
-                    "viewName": "MainNavigation.ObjectView.ObjectTask-Scenario1.Task7"
+                    "viewName": "MainNavigation.ObjectView.Scenarios.Example6-GridList"
                 },
                 "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/task": {
                     "viewName": "MainNavigation.ObjectView.ObjectTask"

@@ -15,28 +15,28 @@
             id="default">
             <m:Panel headerText="Running scenarios" 
               height="100%">
-              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios.Example3-Table" />
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Scenarios.Example3-Table" />
             </m:Panel>
           </l:SplitPane>
 
           <l:SplitPane requiredParentWidth="960">
             <m:Panel headerText="Pending tasks" 
               height="100%">
-              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Tasks.PendingTasks.Example3-Table" />
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.PendingTasks.Example3-Table" />
             </m:Panel>
           </l:SplitPane>
 
           <l:SplitPane requiredParentWidth="960">
             <m:Panel headerText="Completed tasks" 
               height="100%">
-              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Tasks.CompletedTasks.Example3-Table" />
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.CompletedTasks.Example3-Table" />
             </m:Panel>
           </l:SplitPane>
 
           <l:SplitPane requiredParentWidth="960">
             <m:Panel headerText="Managed employees" 
               height="100%">
-              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Employees.Example3-Table" />
+              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Employees.Example3-Table" />
             </m:Panel>
           </l:SplitPane>
 

@@ -11,22 +11,22 @@
         <l:BlockLayoutRow>
 
           <l:BlockLayoutCell title="Running scenarios">
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios.Example5-CustomListGrid" />
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Scenarios.Example5-CustomListGrid" />
           </l:BlockLayoutCell>
 
           <l:BlockLayoutCell title="Pending tasks">
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Tasks.PendingTasks.Example5-CustomListGrid" />
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.PendingTasks.Example5-CustomListGrid" />
           </l:BlockLayoutCell>
 
         </l:BlockLayoutRow>
         <l:BlockLayoutRow>
 
           <l:BlockLayoutCell title="Completed tasks">
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Tasks.CompletedTasks.Example5-CustomListGrid" />
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.CompletedTasks.Example5-CustomListGrid" />
           </l:BlockLayoutCell>
 
           <l:BlockLayoutCell title="Managed employees">
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Employees.Example5-CustomListGrid" />
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Employees.Example5-CustomListGrid" />
           </l:BlockLayoutCell>
 
         </l:BlockLayoutRow>

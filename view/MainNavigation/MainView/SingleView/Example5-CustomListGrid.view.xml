@@ -7,7 +7,7 @@
     class="sapUiContentPadding">
     <content>
 
-      <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Scenarios.Example5-CustomListGrid" />
+      <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Scenarios.Example5-CustomListGrid" />
 
     </content>
   </Page>

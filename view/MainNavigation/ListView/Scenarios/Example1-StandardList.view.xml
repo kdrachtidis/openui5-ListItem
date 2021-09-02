@@ -1,0 +1,23 @@
+<mvc:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.ListView.Scenarios.Example1-StandardList" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+
+    <List headerText="{i18n>scenarioItems} ({=${/results}.length})" 
+        items="{path:'/results', templateShareable: true}">
+        <items>
+            <StandardListItem icon="sap-icon://activities" 
+                iconInset="false" 
+                type="Navigation" 
+                press="onPress"
+                title="{Name}"  
+                description="{Documentation}" 
+                info="{Status}" 
+                infoState="{StatusInfoState}" 
+                highlight="{StatusInfoState}"
+                tooltip="{Name} - {Documentation}">
+            </StandardListItem>
+        </items>
+    </List>
+    
+</mvc:View>

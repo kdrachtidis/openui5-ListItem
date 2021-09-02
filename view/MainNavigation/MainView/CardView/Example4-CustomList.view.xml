@@ -22,7 +22,7 @@
           </f:header>
 
           <f:content>
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withoutHeader.Scenarios.Example4-CustomList" />
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Scenarios.Example4-CustomList" />
           </f:content>
 
         </f:Card>
@@ -37,7 +37,7 @@
           </f:header>
 
           <f:content>
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withoutHeader.Tasks.PendingTasks.Example4-CustomList" />
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.PendingTasks.Example4-CustomList" />
           </f:content>
 
         </f:Card>
@@ -52,7 +52,7 @@
           </f:header>
 
           <f:content>
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withoutHeader.Tasks.CompletedTasks.Example4-CustomList" />
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.CompletedTasks.Example4-CustomList" />
           </f:content>
 
         </f:Card>
@@ -67,7 +67,7 @@
           </f:header>
 
           <f:content>
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withoutHeader.Employees.Example4-CustomList" />
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Employees.Example4-CustomList" />
           </f:content>
 
         </f:Card>

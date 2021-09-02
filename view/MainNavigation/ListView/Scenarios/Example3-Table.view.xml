@@ -1,0 +1,53 @@
+<mvc:View height="100%" 
+    controllerName="DemoUXapp.controller.MainNavigation.ListView.Scenarios.Example3-Table" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+
+    <Table id="idProductsTable" 
+        inset="false" 
+        items="{path:'/results', templateShareable: true}">
+        <headerToolbar>
+            <Toolbar>
+                <Title text="{i18n>scenarioItems} ({=${/results}.length})" 
+                    level="H2" />
+            </Toolbar>
+        </headerToolbar>
+        <columns>
+            <Column minScreenWidth="Tablet">
+                <Text text="Name" />
+            </Column>
+            <Column minScreenWidth="Tablet">
+                <Text text="Documentation" />
+            </Column>
+            <Column minScreenWidth="Tablet">
+                <Text text="Execution Instance ID" />
+            </Column>
+            <Column minScreenWidth="Tablet">
+                <Text text="Progress" />
+            </Column>
+            <Column minScreenWidth="Tablet" 
+                hAlign="Center">
+                <Text text="Status" />
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem type="Navigation" 
+                press="onPress" 
+                tooltip="{Name} - {Documentation}">
+                <cells>
+                    <ObjectIdentifier title="{Name}" />
+                    <Text text="{Documentation}" />
+                    <Text text="{ExecutionInstanceID}" />
+                    <ProgressIndicator percentValue="{Completion}" 
+                        displayValue="{CompletedTasks}/{AllTasks}" 
+                        showValue="true" 
+                        state="None" 
+                        displayOnly="true" />
+                    <ObjectStatus text="{Status}" 
+                        state="{StatusInfoState}" />
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+
+</mvc:View>
