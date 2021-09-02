@@ -9,7 +9,7 @@
 
         <headerToolbar>
             <Toolbar>
-                <Title text="Items (5)" 
+                <Title text="{i18n>taskItems} (5)" 
                     level="H2" />
             </Toolbar>
         </headerToolbar>

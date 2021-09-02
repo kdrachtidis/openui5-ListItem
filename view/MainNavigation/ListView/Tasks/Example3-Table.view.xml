@@ -9,7 +9,7 @@
 
         <headerToolbar>
             <Toolbar>
-                <Title text="Items" 
+                <Title text="{i18n>taskItems} ({=${/results}.length})" 
                     level="H2" />
             </Toolbar>
         </headerToolbar>

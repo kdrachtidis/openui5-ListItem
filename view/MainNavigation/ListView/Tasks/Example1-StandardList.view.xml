@@ -3,7 +3,7 @@
     xmlns:mvc="sap.ui.core.mvc" 
     xmlns="sap.m">
 
-    <List headerText="Items ({=${/results}.length})" 
+    <List headerText="{i18n>taskItems} ({=${/results}.length})" 
         items="{path:'/results', templateShareable: true}">
         <items>
             <StandardListItem icon="sap-icon://workflow-tasks" 

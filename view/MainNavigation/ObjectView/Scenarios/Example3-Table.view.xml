@@ -5,7 +5,7 @@
   xmlns:m="sap.m" 
   xmlns="sap.uxap">
 
-  <m:Page title="Cloud Integration Service">
+  <m:Page title="{i18n>appTitle}">
     <m:content>
 
       <ObjectPageLayout enableLazyLoading="true" 
@@ -15,8 +15,8 @@
 
             <breadcrumbs>
               <m:Breadcrumbs>
-                <m:Link text="Integration Scenarios" 
-                  href=".#//sap.m.Table/sap.m.ColumnListItem" />
+                <m:Link text="{i18n>breadcrumbFirstLevel}" 
+                  href=".#/sap.m.Table/sap.m.ColumnListItem" />
               </m:Breadcrumbs>
             </breadcrumbs>
 
@@ -86,9 +86,9 @@
             </f:Avatar>
 
             <l:VerticalLayout class="sapUiSmallMarginEnd sapUiSmallMarginTop">
-              <m:ObjectStatus title="Execution Instance ID" 
+              <m:ObjectStatus title="{i18n>scenarioID}" 
                 text="{ExecutionInstanceID}" />
-              <m:ObjectStatus title="Status" 
+              <m:ObjectStatus title="{i18n>scenarioStatus}" 
                 text="{Status}" 
                 state="{StatusInfoState}" />
               <m:ProgressIndicator percentValue="{Completion}" 

@@ -4,7 +4,7 @@
     xmlns:mvc="sap.ui.core.mvc" 
     xmlns="sap.m">
 
-    <List headerText="Items (10)" 
+    <List headerText="{i18n>taskItems} (10)" 
         items="{path:'/results', templateShareable: true, filters : [{path : 'Status', operator:'Contains', value1:'Completed'}]}">
         <CustomListItem type="Navigation" 
             press="onPress" 

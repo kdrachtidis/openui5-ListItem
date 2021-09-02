@@ -5,7 +5,7 @@
   xmlns:m="sap.m" 
   xmlns="sap.uxap">
 
-  <m:Page title="Cloud Integration Service">
+  <m:Page title="{i18n>appTitle}">
     <m:content>
 
       <ObjectPageLayout enableLazyLoading="true" 
@@ -15,7 +15,7 @@
 
             <breadcrumbs>
               <m:Breadcrumbs>
-                <m:Link text="Integration Scenarios" 
+                <m:Link text="{i18n>breadcrumbFirstLevel}" 
                   href=".#/sap.m.List/sap.m.StandardListItem" />
               </m:Breadcrumbs>
             </breadcrumbs>
@@ -37,7 +37,7 @@
                   fitContainer="true" 
                   alignItems="Center" 
                   class="sapUiTinyMarginEnd">
-                  <f:Avatar src="sap-icon://workflow-tasks" 
+                  <f:Avatar src="sap-icon://activities" 
                     displayShape="Circle" 
                     displaySize="S" 
                     class="sapUiTinyMarginEnd" />
@@ -81,14 +81,14 @@
             alignItems="Stretch">
 
             <f:Avatar class="sapUiSmallMarginEnd sapUiSmallMarginTop" 
-              src="sap-icon://workflow-tasks" 
+              src="sap-icon://activities" 
               displaySize="L">
             </f:Avatar>
 
             <l:VerticalLayout class="sapUiSmallMarginEnd sapUiSmallMarginTop">
-              <m:ObjectStatus title="Execution Instance ID" 
+              <m:ObjectStatus title="{i18n>scenarioID}" 
                 text="{ExecutionInstanceID}" />
-              <m:ObjectStatus title="Status" 
+              <m:ObjectStatus title="{i18n>scenarioStatus}" 
                 text="{Status}" 
                 state="{StatusInfoState}" />
               <m:ProgressIndicator percentValue="{Completion}" 
@@ -119,17 +119,6 @@
                 <blocks>
                   <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.Example1-StandardList" 
                     class="sapUiSmallMarginBottom" />
-                </blocks>
-              </ObjectPageSubSection>
-            </subSections>
-          </ObjectPageSection>
-
-          <ObjectPageSection titleUppercase="false">
-            <subSections>
-              <ObjectPageSubSection mode="Expanded" 
-                title="Graph">
-                <blocks>
-                  <!--<mvc:XMLView viewName="DemoUXapp.view.MainNavigation.GraphView.Horizontal.Scenario1" />-->
                 </blocks>
               </ObjectPageSubSection>
             </subSections>
