@@ -57,21 +57,6 @@
 
         </f:Card>
 
-        <f:Card class="sapUiSmallMargin" 
-          width="24rem">
-
-          <f:header>
-            <card:Header title="Managed employees" 
-              subtitle="All" 
-              statusText="9 items" />
-          </f:header>
-
-          <f:content>
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Employees.Example6-GridList" />
-          </f:content>
-
-        </f:Card>
-
       </m:HBox>
 
     </m:content>

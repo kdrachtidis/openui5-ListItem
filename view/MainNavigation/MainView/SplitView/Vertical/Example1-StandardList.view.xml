@@ -1,9 +1,9 @@
-<mvc:View controllerName="DemoUXapp.controller.MainNavigation.MainView" 
-  xmlns:l="sap.ui.layout" 
-  xmlns:mvc="sap.ui.core.mvc" 
+<mvc:View controllerName="DemoUXapp.controller.MainNavigation.MainView"
+  xmlns:l="sap.ui.layout"
+  xmlns:mvc="sap.ui.core.mvc"
   xmlns:m="sap.m">
 
-  <m:Page showHeader="true" 
+  <m:Page showHeader="true"
     title="{i18n>appTitle}">
 
     <m:content>
@@ -14,16 +14,9 @@
           <l:PaneContainer orientation="Vertical">
 
             <l:SplitPane id="default">
-              <m:Panel headerText="Running scenarios" 
+              <m:Panel headerText="Running scenarios"
                 height="100%">
                 <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Scenarios.Example1-StandardList" />
-              </m:Panel>
-            </l:SplitPane>
-
-            <l:SplitPane>
-              <m:Panel headerText="Pending tasks" 
-                height="100%">
-                <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.PendingTasks.Example1-StandardList" />
               </m:Panel>
             </l:SplitPane>
 
@@ -32,16 +25,17 @@
           <l:PaneContainer orientation="Vertical">
 
             <l:SplitPane>
-              <m:Panel headerText="Completed tasks" 
+              <m:Panel headerText="Pending tasks"
                 height="100%">
-                <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.CompletedTasks.Example1-StandardList" />
+                <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.PendingTasks.Example1-StandardList" />
               </m:Panel>
             </l:SplitPane>
 
+
             <l:SplitPane>
-              <m:Panel headerText="Managed employees" 
+              <m:Panel headerText="Completed tasks"
                 height="100%">
-                <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Employees.Example1-StandardList" />
+                <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.CompletedTasks.Example1-StandardList" />
               </m:Panel>
             </l:SplitPane>
 

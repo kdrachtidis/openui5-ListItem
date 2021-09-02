@@ -33,13 +33,6 @@
             </m:Panel>
           </l:SplitPane>
 
-          <l:SplitPane requiredParentWidth="960">
-            <m:Panel headerText="Managed employees" 
-              height="100%">
-              <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Employees.Example1-StandardList" />
-            </m:Panel>
-          </l:SplitPane>
-
         </l:PaneContainer>
 
       </l:ResponsiveSplitter>

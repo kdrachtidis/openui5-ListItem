@@ -236,11 +236,6 @@
                     "target": "sap.uxap.ObjectPageSubSection/sap.f.GridList/sap.f.GridListItem"
                 },
                 {
-                    "pattern": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee/{employeeId}",
-                    "name": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee",
-                    "target": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee"
-                },
-                {
                     "pattern": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/task/{taskId}",
                     "name": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/task",
                     "target": "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/task"
@@ -370,9 +365,6 @@
                 },
                 "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/task": {
                     "viewName": "MainNavigation.ObjectView.ObjectTask"
-                },
-                "sap.uxap.ObjectPageLayout/sap.uxap.ObjectPageDynamicHeaderTitle/employee": {
-                    "viewName": "MainNavigation.ObjectView.ObjectEmployee"
                 },
                 "utility1": {
                     "viewName": "FixedNavigation.Utility1"

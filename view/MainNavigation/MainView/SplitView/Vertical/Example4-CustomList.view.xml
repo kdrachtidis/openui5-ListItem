@@ -20,13 +20,6 @@
               </m:Panel>
             </l:SplitPane>
 
-            <l:SplitPane>
-              <m:Panel headerText="Pending tasks" 
-                height="100%">
-                <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.PendingTasks.Example4-CustomList" />
-              </m:Panel>
-            </l:SplitPane>
-
           </l:PaneContainer>
 
           <l:PaneContainer orientation="Vertical">
@@ -39,9 +32,9 @@
             </l:SplitPane>
 
             <l:SplitPane>
-              <m:Panel headerText="Managed employees" 
+              <m:Panel headerText="Pending tasks" 
                 height="100%">
-                <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Employees.Example4-CustomList" />
+                <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.PendingTasks.Example4-CustomList" />
               </m:Panel>
             </l:SplitPane>
 

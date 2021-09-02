@@ -14,10 +14,6 @@
             <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Scenarios.Example6-GridList" />
           </l:BlockLayoutCell>
         
-          <l:BlockLayoutCell title="Pending tasks">
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.PendingTasks.Example6-GridList" />
-          </l:BlockLayoutCell>
-        
         </l:BlockLayoutRow>
         <l:BlockLayoutRow>
         
@@ -25,8 +21,8 @@
             <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.CompletedTasks.Example6-GridList" />
           </l:BlockLayoutCell>
         
-          <l:BlockLayoutCell title="Managed employees">
-            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Employees.Example6-GridList" />
+          <l:BlockLayoutCell title="Pending tasks">
+            <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.Tasks.PendingTasks.Example6-GridList" />
           </l:BlockLayoutCell>
         
         </l:BlockLayoutRow>
