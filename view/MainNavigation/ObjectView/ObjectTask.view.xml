@@ -1,49 +1,50 @@
-<mvc:View height="100%" 
-    controllerName="DemoUXapp.controller.MainNavigation.ObjectView.ObjectTask" 
-    xmlns:core="sap.ui.core" 
-    xmlns:mvc="sap.ui.core.mvc" 
-    xmlns:l="sap.ui.layout" 
-    xmlns:f="sap.f" 
-    xmlns:m="sap.m" 
+<mvc:View height="100%"
+    controllerName="DemoUXapp.controller.MainNavigation.ObjectView.ObjectTask"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:form="sap.ui.layout.form"
+    xmlns:f="sap.f"
+    xmlns:m="sap.m"
     xmlns="sap.uxap">
 
-    <m:Page title="Cloud Integration Service">
+    <m:Page title="{i18n>appTitle}">
         <m:content>
 
-            <ObjectPageLayout enableLazyLoading="true" 
+            <ObjectPageLayout enableLazyLoading="true"
                 headerContentPinnable="true">
                 <headerTitle>
                     <ObjectPageDynamicHeaderTitle>
 
                         <breadcrumbs>
                             <m:Breadcrumbs>
-                                <m:Link text='Integration Scenarios' />
-                                <m:Link text='Tasks' />
+                                <m:Link text='{i18n>breadcrumbFirstLevel}' />
+                                <m:Link text='{i18n>breadcrumbSecondLevel}' />
                             </m:Breadcrumbs>
                         </breadcrumbs>
 
                         <expandedHeading>
-                            <m:FlexBox wrap="Wrap" 
-                                fitContainer="true" 
+                            <m:FlexBox wrap="Wrap"
+                                fitContainer="true"
                                 alignItems="Center">
-                                <m:Title text="{Name}" 
+                                <m:Title text="{Name}"
                                     wrapping="true"></m:Title>
                             </m:FlexBox>
                         </expandedHeading>
 
                         <snappedHeading>
-                            <m:FlexBox wrap="Wrap" 
-                                fitContainer="true" 
+                            <m:FlexBox wrap="Wrap"
+                                fitContainer="true"
                                 alignItems="Center">
-                                <m:FlexBox wrap="NoWrap" 
-                                    fitContainer="true" 
-                                    alignItems="Center" 
+                                <m:FlexBox wrap="NoWrap"
+                                    fitContainer="true"
+                                    alignItems="Center"
                                     class="sapUiTinyMarginEnd">
-                                    <f:Avatar src="sap-icon://workflow-tasks" 
-                                        displayShape="Circle" 
-                                        displaySize="S" 
+                                    <f:Avatar src="sap-icon://workflow-tasks"
+                                        displayShape="Circle"
+                                        displaySize="S"
                                         class="sapUiTinyMarginEnd" />
-                                    <m:Title text="{Name}" 
+                                    <m:Title text="{Name}"
                                         wrapping="true"></m:Title>
                                 </m:FlexBox>
                             </m:FlexBox>
@@ -58,24 +59,24 @@
                         </snappedContent>
 
                         <actions>
-                            <ObjectPageHeaderActionButton text="Set Complete" 
-                                type="Emphasized" 
+                            <ObjectPageHeaderActionButton text="Set Complete"
+                                type="Emphasized"
                                 hideText="false" />
-                            <ObjectPageHeaderActionButton text="Show Logs" 
-                                type="Transparent" 
+                            <ObjectPageHeaderActionButton text="Show Logs"
+                                type="Transparent"
                                 hideText="false" />
-                            <ObjectPageHeaderActionButton icon="sap-icon://action" 
-                                type="Transparent" 
-                                text="Share" 
+                            <ObjectPageHeaderActionButton icon="sap-icon://action"
+                                type="Transparent"
+                                text="Share"
                                 tooltip="Share" />
                         </actions>
 
                         <navigationActions>
-                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-up" 
-                                type="Transparent" 
+                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-up"
+                                type="Transparent"
                                 tooltip="Move up" />
-                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-down" 
-                                type="Transparent" 
+                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-down"
+                                type="Transparent"
                                 tooltip="Move down" />
                         </navigationActions>
 
@@ -83,37 +84,37 @@
 
                 </headerTitle>
                 <headerContent>
-                    <m:FlexBox wrap="Wrap" 
-                        fitContainer="true" 
+                    <m:FlexBox wrap="Wrap"
+                        fitContainer="true"
                         alignItems="Stretch">
 
-                        <f:Avatar class="sapUiSmallMarginEnd sapUiSmallMarginTop" 
-                            src="sap-icon://workflow-tasks" 
+                        <f:Avatar class="sapUiSmallMarginEnd sapUiSmallMarginTop"
+                            src="sap-icon://workflow-tasks"
                             displaySize="L">
                         </f:Avatar>
 
                         <l:VerticalLayout class="sapUiSmallMarginEnd sapUiSmallMarginTop">
-                            <m:ObjectStatus title="Id" 
+                            <m:ObjectStatus title="{i18n>taskID}"
                                 text="{Id}" />
-                            <m:ObjectStatus title="Sequence" 
+                            <m:ObjectStatus title="{i18n>taskSequence}"
                                 text="{Sequence}" />
-                            <m:ObjectStatus title="Type" 
+                            <m:ObjectStatus title="{i18n>taskType}"
                                 text="{Type}" />
-                            <m:ObjectStatus title="Role" 
+                            <m:ObjectStatus title="{i18n>taskRole}"
                                 text="{Role}" />
                         </l:VerticalLayout>
 
                         <l:VerticalLayout class="sapUiSmallMarginEnd sapUiSmallMarginTop">
-                            <m:ObjectStatus title="Assigned to" 
+                            <m:ObjectStatus title="{i18n>taskUser}"
                                 text="{Assignee}" />
-                            <m:ObjectStatus title="Created on" 
+                            <m:ObjectStatus title="{i18n>taskCreation}"
                                 text="{Date}" />
                         </l:VerticalLayout>
 
                         <l:VerticalLayout class="sapUiMediumMarginBeginEnd sapUiSmallMarginTop">
-                            <m:ObjectAttribute title="Status" />
-                            <m:ObjectStatus class="sapMObjectStatusLarge" 
-                                text="{Status}" 
+                            <m:ObjectAttribute title="{i18n>taskStatus}" />
+                            <m:ObjectStatus class="sapMObjectStatusLarge"
+                                text="{Status}"
                                 state="{StatusInfoState}" />
                         </l:VerticalLayout>
                     </m:FlexBox>
@@ -123,8 +124,8 @@
 
                     <ObjectPageSection titleUppercase="false">
                         <subSections>
-                            <ObjectPageSubSection mode="Expanded" 
-                                title="Description">
+                            <ObjectPageSubSection mode="Expanded"
+                                title="{i18n>taskDesc}">
                                 <blocks>
 
                                     <m:Text text="Description..." />
@@ -136,10 +137,78 @@
 
                     <ObjectPageSection titleUppercase="false">
                         <subSections>
-                            <ObjectPageSubSection title="Parameters">
+                            <ObjectPageSubSection title="{i18n>taskParam}">
                                 <blocks>
 
-                                    <m:Text text="Parameters..." />
+                                    <m:VBox class="sapUiSmallMargin">
+
+                                        <form:SimpleForm title="Gateway"
+                                            editable="true"
+                                            layout="ResponsiveGridLayout"
+                                            labelSpanXL="4"
+                                            labelSpanL="3"
+                                            labelSpanM="4"
+                                            labelSpanS="12"
+                                            adjustLabelSpan="false"
+                                            emptySpanXL="0"
+                                            emptySpanL="4"
+                                            emptySpanM="0"
+                                            emptySpanS="0"
+                                            columnsXL="2"
+                                            columnsL="1"
+                                            columnsM="1"
+                                            singleContainerFullSize="false">
+                                            <m:Label text="Host" />
+                                            <m:Input type="Text"
+                                                enabled="true"
+                                                editable="false"
+                                                value="host" />
+                                            <m:Label text="Port" />
+                                            <m:Input type="Text"
+                                                enabled="true"
+                                                editable="false"
+                                                value="29" />
+                                            <m:Label text="Trusted Connection" />
+                                            <m:Input type="Text"
+                                                placeholder="Enter Connection..."
+                                                enabled="true"
+                                                editable="true"
+                                                value="TRUSTED_CON" />
+                                            <m:Label text="Logon Language" />
+                                            <m:Input type="Text"
+                                                placeholder="Enter Language..."
+                                                enabled="true"
+                                                editable="true"
+                                                value="en_EN" />
+                                            <m:Label text="Logon Client" />
+                                            <m:Input type="Text"
+                                                placeholder="Enter Client..."
+                                                enabled="true"
+                                                editable="true"
+                                                value="300" />
+                                        </form:SimpleForm>
+
+                                    </m:VBox>
+
+                                </blocks>
+                            </ObjectPageSubSection>
+                        </subSections>
+                    </ObjectPageSection>
+
+                    <ObjectPageSection titleUppercase="false">
+                        <subSections>
+                            <ObjectPageSubSection title="{i18n>taskWalk}">
+                                <blocks>
+
+                                    <m:List mode=""
+                                        headerText="{i18n>taskSteps}"
+                                        growing="true">
+                                        <m:StandardListItem title="{i18n>stepDesc1}" />
+                                        <m:StandardListItem title="{i18n>stepDesc2}" />
+                                        <m:StandardListItem title="{i18n>stepDesc3}" />
+                                        <m:StandardListItem title="{i18n>stepDesc4}" />
+                                        <m:StandardListItem title="{i18n>stepDesc5}" />
+                                    </m:List>
 
                                 </blocks>
                             </ObjectPageSubSection>
