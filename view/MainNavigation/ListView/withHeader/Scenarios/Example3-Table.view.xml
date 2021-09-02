@@ -1,5 +1,5 @@
 <mvc:View height="100%" 
-    controllerName="DemoUXapp.controller.MainNavigation.ListView.Scenarios" 
+    controllerName="DemoUXapp.controller.MainNavigation.ListView.Scenarios-Table" 
     xmlns:mvc="sap.ui.core.mvc" 
     xmlns="sap.m">
 

@@ -1,112 +1,1482 @@
 [
     {
-        "ScenarioNo": 0,
-        "Name": "Scenario 612f8d2d2ee43ec01f6aa57d",
-        "Documentation": "Scenario Type B",
-        "ExecutionInstanceID": "1fb6ca38-b3c6-405e-93df-f81ca8dca2c5",
-        "CompletedTasks": 12,
-        "AllTasks": 15,
-        "Completion": 80,
-        "Status": "Running",
-        "StatusInfoState": "None"
+      "ScenarioNo": 0,
+      "Name": "Scenario 61308e583c5321be6ce4d6b7",
+      "Documentation": "Scenario Type D",
+      "ExecutionInstanceID": "5f24a631-783b-4e70-9b3d-e2ef593d5923",
+      "CompletedTasks": 4,
+      "AllTasks": 15,
+      "Completion": 26.666666666666668,
+      "Status": "Running",
+      "StatusInfoState": "None",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e58ee878bab0afe37a0",
+          "Id": "21bc7a20-ebc7-4ed1-a43b-826222ea0aca",
+          "Sequence": "INIT_02",
+          "Type": "Task Type C",
+          "Role": "Configuration C",
+          "Assignee": "Mclean Ingram"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e5864e35f5e664d84e9",
+          "Id": "be60f38c-bcc6-4edc-9246-abef07240e6d",
+          "Sequence": "INIT_04",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Deirdre Watkins"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e583172dbf9e7083a80",
+          "Id": "cd2289b3-f750-4cf8-89a8-e9c0a570ac49",
+          "Sequence": "INIT_03",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Bridgett Whitney"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e586b281d2f5b5c2b7e",
+          "Id": "6a06c494-61a0-470b-afd5-2d389f294067",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Abigail Conrad"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e58a736e61bfd782a7f",
+          "Id": "34ce8b7c-925f-475f-b5ec-b47ce68a71ca",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Branch Fuller"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e582b3b2a99f1b9b2fb",
+          "Id": "be5a68b5-7cb2-4320-a03c-e921b3d9cc07",
+          "Sequence": "INIT_03",
+          "Type": "Task Type B",
+          "Role": "Configuration C",
+          "Assignee": "Edwards Davidson"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e58fea48153074ebce8",
+          "Id": "a58f1e73-e266-4bf3-bb2a-85a04c33cf03",
+          "Sequence": "INIT_01",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Lucia Lynch"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e58d1ae80de20812e2b",
+          "Id": "e7ab8be1-df0d-48cf-a75a-dff7b13a2753",
+          "Sequence": "INIT_03",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "Sykes Gordon"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e5840eb423e91b79611",
+          "Id": "c614dd53-a5e0-4bd6-b2ee-d479a020b248",
+          "Sequence": "INIT_01",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Mueller Gates"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e58ce7db87087e99424",
+          "Id": "7be4a589-2402-414e-b7c3-ecb3ab000b67",
+          "Sequence": "INIT_04",
+          "Type": "Task Type C",
+          "Role": "Configuration B",
+          "Assignee": "Mckee Cruz"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e58eefb9082bc3ff4be",
+          "Id": "7d88f2e9-b815-43e5-971c-498d6def0e2c",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Marshall Conner"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e5818ad207925035914",
+          "Id": "412651c8-5df5-4c57-b59c-3949c8e5f08b",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Trevino Mason"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e583025c4c7b21c1fed",
+          "Id": "ea4014ac-0749-4ff6-b84e-2f331a58bad6",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "Kathleen Greer"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e58f42b580ea7444e17",
+          "Id": "11ca562d-8a3d-4e8e-9b06-340bbb2d1838",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Berry Bonner"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e58c91d6ad6124b3f9b",
+          "Id": "9ad9eb1a-46be-48e1-9661-e2e61b46c476",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Gibbs Park"
+        }
+      ]
     },
     {
-        "ScenarioNo": 1,
-        "Name": "Scenario 612f8d2d16dfd8624ef32d15",
-        "Documentation": "Scenario Type C",
-        "ExecutionInstanceID": "5f07c85e-a4f2-4623-85cb-17469c3e616a",
-        "CompletedTasks": 9,
-        "AllTasks": 15,
-        "Completion": 60,
-        "Status": "Running",
-        "StatusInfoState": "None"
+      "ScenarioNo": 1,
+      "Name": "Scenario 61308e5890bbe68322c3ff96",
+      "Documentation": "Scenario Type B",
+      "ExecutionInstanceID": "2457d1d9-bc09-4957-8791-5705b9b387fc",
+      "CompletedTasks": 12,
+      "AllTasks": 15,
+      "Completion": 80,
+      "Status": "Running",
+      "StatusInfoState": "None",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e584f3803b8c8f9ad0a",
+          "Id": "80ea9975-d846-4e31-ae00-68b39c22cbe7",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Earline Vang"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e585f6821bc26276775",
+          "Id": "a4f8a40b-96ae-40c0-a832-00e3b3ee872e",
+          "Sequence": "INIT_04",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Bolton Bass"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e5867c4a3ddfb44750a",
+          "Id": "0dd03397-3418-47c9-906d-ba20a2c8b9d5",
+          "Sequence": "INIT_03",
+          "Type": "Task Type B",
+          "Role": "Configuration B",
+          "Assignee": "Dana Patrick"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e58a37f2cfb621c9994",
+          "Id": "44e6f8bf-b694-4a49-8def-50a9ec8f6407",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration B",
+          "Assignee": "Horne Banks"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e58d71c43bb8ecb1999",
+          "Id": "7820cdc2-d31c-4c13-84f9-2e0cacbd3323",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Corrine Nielsen"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e58f4839e0ccaed7249",
+          "Id": "6147cb1f-4076-4175-862a-bd4468d838f7",
+          "Sequence": "INIT_01",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "Teri Bentley"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e5819d3e7e982e58916",
+          "Id": "07296a9d-ff82-4353-8ca3-48f35bfe7693",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Francesca Jones"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e584826606020e571df",
+          "Id": "ee07dad4-145d-4c79-affa-c55e3094a044",
+          "Sequence": "INIT_04",
+          "Type": "Task Type B",
+          "Role": "Configuration C",
+          "Assignee": "Benson Henson"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e58348dae9865082ce0",
+          "Id": "6eb22461-e607-4c09-adfc-1a59ca6a237b",
+          "Sequence": "INIT_04",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Ferguson Graham"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e580d48b2b2fac04212",
+          "Id": "e383d260-5d6b-42e8-a78a-29eac100e34c",
+          "Sequence": "INIT_03",
+          "Type": "Task Type C",
+          "Role": "Configuration A",
+          "Assignee": "Anne Collins"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e58fff6d199a81a01c7",
+          "Id": "ddc0641d-3b95-4a98-935f-421796b65ca3",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Jensen King"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e58a29fddc97918d207",
+          "Id": "00d9167d-5559-45b4-8205-37d6a74270e1",
+          "Sequence": "INIT_01",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Ferrell Langley"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e58f034f0b4952e3aa8",
+          "Id": "8a583bee-df47-42e1-9828-d4a190fcca2a",
+          "Sequence": "INIT_04",
+          "Type": "Task Type C",
+          "Role": "Configuration C",
+          "Assignee": "Sherry Calhoun"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e5837e3f5ad5105139c",
+          "Id": "ae3dacee-17a5-4f3f-840b-df72633cb9aa",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration B",
+          "Assignee": "Joann Compton"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e58f9427c6a392d3886",
+          "Id": "c898a9e0-ae9c-42cf-b378-4c6a69cc14c5",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Laurel Wheeler"
+        }
+      ]
     },
     {
-        "ScenarioNo": 2,
-        "Name": "Scenario 612f8d2d769bbd5ac7423096",
-        "Documentation": "Scenario Type C",
-        "ExecutionInstanceID": "776d5baa-8c27-4749-bbf9-37d86115431f",
-        "CompletedTasks": 7,
-        "AllTasks": 15,
-        "Completion": 46.666666666666664,
-        "Status": "Running",
-        "StatusInfoState": "None"
+      "ScenarioNo": 2,
+      "Name": "Scenario 61308e58d7af51769433845b",
+      "Documentation": "Scenario Type A",
+      "ExecutionInstanceID": "f5cf3f5b-5a50-483e-b220-96aa04b8a411",
+      "CompletedTasks": 1,
+      "AllTasks": 15,
+      "Completion": 6.666666666666667,
+      "Status": "Running",
+      "StatusInfoState": "None",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e58974358120b35c814",
+          "Id": "b8a857d6-39da-4bcc-984b-7af64cacf51f",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Amber Shaw"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e58a0a8949ee8275578",
+          "Id": "74870aac-ae8d-4f52-98bc-d7c853a84cc9",
+          "Sequence": "INIT_03",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Mari Wade"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e58164bd54986f02814",
+          "Id": "a47c30a4-a275-4c1f-8506-e82f24527a7f",
+          "Sequence": "INIT_02",
+          "Type": "Task Type C",
+          "Role": "Configuration B",
+          "Assignee": "Polly Fletcher"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e58c7b606bb22620789",
+          "Id": "8f64b424-50c9-49f0-9f8f-41240b94fedd",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Stacy Cooke"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e583c36d1fc580da650",
+          "Id": "2bc42de2-c30b-4dc3-ac7f-9070120c95bc",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration B",
+          "Assignee": "Santiago Duran"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e5893c852e17f4a6451",
+          "Id": "6271c498-a16c-4e54-b399-53045fa887b5",
+          "Sequence": "INIT_01",
+          "Type": "Task Type C",
+          "Role": "Configuration A",
+          "Assignee": "Anastasia Hensley"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e5844ec591dddac115b",
+          "Id": "05808217-1dc4-4019-861f-eb97b00797b8",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Estes Lawrence"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e5835add8fd546fc658",
+          "Id": "6780bedf-3b4b-4456-b32a-dce076c38183",
+          "Sequence": "INIT_03",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Kennedy Estrada"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e588d8ccc09b7614c5e",
+          "Id": "26fb2957-9e05-4a67-9ca1-fc9d12a21edf",
+          "Sequence": "INIT_04",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "Knapp Logan"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e5881d0b29b9987dcd8",
+          "Id": "76a6a83a-4411-473f-99e0-5910a64bf27f",
+          "Sequence": "INIT_03",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Jami Mclean"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e58290ce749a12e2948",
+          "Id": "f5eae3ff-875f-4a0e-9e50-32d4bffb8d08",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Mckinney Carson"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e58c83308a40a03709b",
+          "Id": "b996352d-f89d-4d0a-8733-4d62b186057e",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Lela Mcfarland"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e5828ab8d45876f3ccb",
+          "Id": "83d069c6-ce4c-4f8b-bb7d-c6d87e8a950f",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration B",
+          "Assignee": "Dominguez Merritt"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e58ba40e53fba49f7cc",
+          "Id": "7b27be8e-df0e-4364-b4a5-1a5e2faf7492",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Dollie Brown"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e5886f9726c77fc8d47",
+          "Id": "e02d8352-40a9-4f4e-a12a-dcd2112ec386",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration B",
+          "Assignee": "Dee Jarvis"
+        }
+      ]
     },
     {
-        "ScenarioNo": 3,
-        "Name": "Scenario 612f8d2de4cc029e7814b26e",
-        "Documentation": "Scenario Type D",
-        "ExecutionInstanceID": "9fc155eb-873d-4721-bff1-2b94087da717",
-        "CompletedTasks": 0,
-        "AllTasks": 15,
-        "Completion": 0,
-        "Status": "Not yet started",
-        "StatusInfoState": "Warning"
+      "ScenarioNo": 3,
+      "Name": "Scenario 61308e58616af1b45e1a8592",
+      "Documentation": "Scenario Type C",
+      "ExecutionInstanceID": "e9cc27fa-2e2d-4649-bc2a-c8226a6b6e85",
+      "CompletedTasks": 7,
+      "AllTasks": 15,
+      "Completion": 46.666666666666664,
+      "Status": "Running",
+      "StatusInfoState": "None",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e583b314c0e3d1fcae3",
+          "Id": "2bb98e48-0f0e-42f3-9da2-f5e80554c946",
+          "Sequence": "INIT_01",
+          "Type": "Task Type B",
+          "Role": "Configuration B",
+          "Assignee": "Arnold Mckinney"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e589c4c9e866cbbb2d8",
+          "Id": "9ea8e023-3320-46d8-8486-bb90ad089048",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Sonia Owen"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e58418ad74bf41fba8a",
+          "Id": "4f77917f-9113-44e2-9140-5f11e7d6939a",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Ann Lindsey"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e581fc4d550607d6791",
+          "Id": "f3569dc1-b8a7-4d08-80b3-e3da0a0cee9e",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Rutledge Nixon"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e584891268eeda55f80",
+          "Id": "06ab6cad-fd93-4435-83de-066f3b6dcf3c",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Richmond Cain"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e58d72b48af821418d2",
+          "Id": "396a4104-6428-4844-8f12-268fad24d38b",
+          "Sequence": "INIT_03",
+          "Type": "Task Type C",
+          "Role": "Configuration C",
+          "Assignee": "Cameron Dejesus"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e5852562a1fb26e57e8",
+          "Id": "8cf5d0eb-9f9b-4488-afba-d642b8573ac7",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Stefanie Norris"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e58a5970bd843d45cd5",
+          "Id": "340ed8e1-2be5-4724-848a-f4a43dbd44ca",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Burton Blanchard"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e589c1e3793096d7600",
+          "Id": "1c14a7e0-070a-4a5f-8484-674311899228",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Katina Fischer"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e58b72f0de820c5110c",
+          "Id": "00f29f9c-4a44-432e-87b7-00e20049a49d",
+          "Sequence": "INIT_03",
+          "Type": "Task Type B",
+          "Role": "Configuration C",
+          "Assignee": "Hodge Le"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e5827ee01f9c1f7e22c",
+          "Id": "d75b0ae3-e19a-4f58-909b-306564769b5e",
+          "Sequence": "INIT_04",
+          "Type": "Task Type C",
+          "Role": "Configuration B",
+          "Assignee": "Whitfield West"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e586f261e1dd968f925",
+          "Id": "0409e5d2-8af0-4ff9-9e68-6d5cb5e5b481",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Alma Mcclain"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e589d181ba677968a49",
+          "Id": "cc7feeae-e0ff-40bb-901f-73df7c7f53c2",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Alta Rice"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e58b8e810fc29331482",
+          "Id": "aefc9bc2-3943-442c-9812-eb6e1f50f611",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Deanne Francis"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e58e05395d5334966e1",
+          "Id": "65f0af62-2240-4269-80df-a231ece74abe",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Day Hays"
+        }
+      ]
     },
     {
-        "ScenarioNo": 4,
-        "Name": "Scenario 612f8d2de9e0fb0c2310a1b2",
-        "Documentation": "Scenario Type D",
-        "ExecutionInstanceID": "202aa6c5-46fb-44bb-842c-db382958cbb2",
-        "CompletedTasks": 1,
-        "AllTasks": 15,
-        "Completion": 6.666666666666667,
-        "Status": "Running",
-        "StatusInfoState": "None"
+      "ScenarioNo": 4,
+      "Name": "Scenario 61308e586a13a31c39886087",
+      "Documentation": "Scenario Type C",
+      "ExecutionInstanceID": "8ff5964d-86f0-4b3b-88aa-e593409af0a8",
+      "CompletedTasks": 6,
+      "AllTasks": 15,
+      "Completion": 40,
+      "Status": "Running",
+      "StatusInfoState": "None",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e589689129a589a0fc0",
+          "Id": "a60a43a0-3456-419e-bd20-9fa8979f6aaa",
+          "Sequence": "INIT_04",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Janna Manning"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e58c8ea18d83555f8e0",
+          "Id": "81a8003b-7195-486f-953f-c74a5545f159",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration B",
+          "Assignee": "Lourdes Talley"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e58c2db1000aa9d135a",
+          "Id": "d6e8f1eb-fe11-47b3-80c9-2ea1f4a0546f",
+          "Sequence": "INIT_02",
+          "Type": "Task Type C",
+          "Role": "Configuration B",
+          "Assignee": "Gallegos Rodriguez"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e58594227cc1fb6b76f",
+          "Id": "d3a55f81-e978-4356-9391-9c8607cd509d",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Britney Finch"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e58b3d99d3bdf480780",
+          "Id": "73e7fa6e-2aa0-4e9d-85d2-47ebfc173aff",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Flynn Slater"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e58a2296ff9e22f3fe8",
+          "Id": "030b8759-bc52-473b-b9ef-bf05d20bbc5e",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Gutierrez Larsen"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e58435b689d6922d83a",
+          "Id": "28467dd7-653d-48a5-9701-a0d5ab2d973b",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Griffith Wolfe"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e58aa0e50c0d473cf65",
+          "Id": "4e6f0271-2a3f-49c5-9512-2ab26cf0c13d",
+          "Sequence": "INIT_01",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Beatriz Mercer"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e5897dad709c0e06cf0",
+          "Id": "8e3eaba2-382f-4246-b822-f933c3830b2b",
+          "Sequence": "INIT_04",
+          "Type": "Task Type C",
+          "Role": "Configuration B",
+          "Assignee": "Kimberly Everett"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e58c0cf56b1ed7c38df",
+          "Id": "0516e054-7920-4056-a960-78bbcc618a5e",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "Bauer Kidd"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e58f6e12e3eb09790f6",
+          "Id": "0254e0fa-d168-43a1-8557-3e2ef200ab7f",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Barlow Hammond"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e582f65cbf98eb56ecf",
+          "Id": "b6e04636-3182-41b6-ab26-a2e51dff3671",
+          "Sequence": "INIT_02",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Bruce Frank"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e58f14fd49278b35476",
+          "Id": "92e640e2-a74b-42c8-9918-40b026753267",
+          "Sequence": "INIT_03",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Jacqueline Cortez"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e5845dda073cc83afdd",
+          "Id": "230a6a2a-0e6d-4926-8d97-a18c52256234",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Herman Ochoa"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e5857620e382930b42c",
+          "Id": "dca1b412-ea68-4347-86b1-3ea7a21e54c8",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Billie Sawyer"
+        }
+      ]
     },
     {
-        "ScenarioNo": 5,
-        "Name": "Scenario 612f8d2df07946655eed2d48",
-        "Documentation": "Scenario Type B",
-        "ExecutionInstanceID": "69fcddb3-e7c7-4d9f-8603-99d4801274da",
-        "CompletedTasks": 0,
-        "AllTasks": 15,
-        "Completion": 0,
-        "Status": "Not yet started",
-        "StatusInfoState": "Warning"
+      "ScenarioNo": 5,
+      "Name": "Scenario 61308e58c46c05f98b17845e",
+      "Documentation": "Scenario Type A",
+      "ExecutionInstanceID": "a54c853a-bb4e-420f-8f8e-21097676ce9c",
+      "CompletedTasks": 1,
+      "AllTasks": 15,
+      "Completion": 6.666666666666667,
+      "Status": "Running",
+      "StatusInfoState": "None",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e5895bb48de6e0df0c7",
+          "Id": "84d4a83f-fabe-40d1-a149-1584340dccfe",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Ramirez Paul"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e58827a7e37bfbd9dcc",
+          "Id": "7e6f1e44-38f9-4529-8728-5b26c4bb77c4",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Bowers Velasquez"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e58c0fecca6edaa47df",
+          "Id": "8e316a31-3d3b-4857-9eb5-c312d28e4780",
+          "Sequence": "INIT_01",
+          "Type": "Task Type C",
+          "Role": "Configuration C",
+          "Assignee": "Shelby Frederick"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e58bae66c25f7c01b1d",
+          "Id": "c793f3fe-fa66-4efb-a392-c0ae25d43e7c",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Isabel Horn"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e5851168b8509076fbe",
+          "Id": "8b52cad5-c6f0-45df-8fb5-5d552ed42c03",
+          "Sequence": "INIT_01",
+          "Type": "Task Type C",
+          "Role": "Configuration A",
+          "Assignee": "Greene Kaufman"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e586416c0d4494f9351",
+          "Id": "829a73e6-c0c9-4e3d-bd9a-45b8b0e52e09",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Dora Byrd"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e581149f282563d92c9",
+          "Id": "2eb6ee8b-49b9-4ec5-8817-e72161a5d0ec",
+          "Sequence": "INIT_01",
+          "Type": "Task Type B",
+          "Role": "Configuration C",
+          "Assignee": "Hyde Roman"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e5872823e8ec0f6d834",
+          "Id": "f1f8077d-804d-45dd-85ea-a4f9c00e089d",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Penny Peters"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e58c8e50ee206a97ac7",
+          "Id": "27f51062-c171-416f-9857-bfde16458417",
+          "Sequence": "INIT_04",
+          "Type": "Task Type C",
+          "Role": "Configuration A",
+          "Assignee": "Judy Shepherd"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e587a61852a879ac3f3",
+          "Id": "fe899a06-4a9a-4ebd-92e6-7e832850497d",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration B",
+          "Assignee": "Blanca Sexton"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e58589db4696587f0a9",
+          "Id": "3fb43c62-c0a7-4af9-9216-f50365e1da60",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration B",
+          "Assignee": "Warner Dodson"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e58371583014e9c9e01",
+          "Id": "b7225acb-64b5-44ce-a576-2bcbc5c7b37b",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Rosalinda Holland"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e58bba5b69872542a05",
+          "Id": "7841b97c-b660-4017-a142-72fd7e130826",
+          "Sequence": "INIT_01",
+          "Type": "Task Type B",
+          "Role": "Configuration B",
+          "Assignee": "Nicholson Woods"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e58b6d475c1a07659bb",
+          "Id": "ae8371ff-4a5b-4130-8258-4b5e5f1cc013",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration B",
+          "Assignee": "Shepard Barr"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e58acdd403621d737e2",
+          "Id": "36cdbadb-bbc6-4ce5-889d-554af4cbc384",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Shepherd Velazquez"
+        }
+      ]
     },
     {
-        "ScenarioNo": 6,
-        "Name": "Scenario 612f8d2dccad45a6f4def5f0",
-        "Documentation": "Scenario Type A",
-        "ExecutionInstanceID": "2e649e1a-a0d8-4b16-a4a3-20f8a6b7264b",
-        "CompletedTasks": 5,
-        "AllTasks": 15,
-        "Completion": 33.333333333333336,
-        "Status": "Running",
-        "StatusInfoState": "None"
+      "ScenarioNo": 6,
+      "Name": "Scenario 61308e584ab08300804272e7",
+      "Documentation": "Scenario Type A",
+      "ExecutionInstanceID": "63b0be96-6ab6-493b-82fb-a8c70238e354",
+      "CompletedTasks": 13,
+      "AllTasks": 15,
+      "Completion": 86.66666666666667,
+      "Status": "Running",
+      "StatusInfoState": "None",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e585cc494998148d1b8",
+          "Id": "b7caab95-0d6d-48eb-a4b3-5bbc8ef8425e",
+          "Sequence": "INIT_01",
+          "Type": "Task Type C",
+          "Role": "Configuration C",
+          "Assignee": "Joseph Moran"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e58042497df960510cc",
+          "Id": "54633d7b-2905-4ea3-9db8-2ce91aaa063b",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Martin Hunt"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e58febc152d3d3320b2",
+          "Id": "89d5bcfa-6146-4fd5-8379-7771fbde62a3",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "Berg Armstrong"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e582a883b80e1041c57",
+          "Id": "c1b20055-4a6a-44ce-99e6-04e9f1451801",
+          "Sequence": "INIT_01",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Sonja Dickerson"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e589e03818b1d69bc6c",
+          "Id": "08f03207-789f-471a-9f67-4f49e62c50b8",
+          "Sequence": "INIT_03",
+          "Type": "Task Type C",
+          "Role": "Configuration A",
+          "Assignee": "Mclaughlin Jacobson"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e58e1f28f63da51eb04",
+          "Id": "1b26145e-af4f-4095-808d-6d8c7fb72f97",
+          "Sequence": "INIT_01",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Moody Mckenzie"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e58f9933e2394eed48b",
+          "Id": "d761626e-af02-41c5-bcc1-eabcafe98b4b",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Christy Lane"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e5899a57efd4dcb4099",
+          "Id": "2fbada7e-efed-453c-8d78-b64a818c1e46",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration B",
+          "Assignee": "Hodges Montgomery"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e58a2471e8d6b798148",
+          "Id": "dca35f76-a655-4067-b1d8-b84b550b2a0d",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Wendy Mccall"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e587c0a42ca2136fde3",
+          "Id": "1d54af29-f05c-4130-8bca-4bd2d88330dd",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration C",
+          "Assignee": "Alexander Valentine"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e58dcfc90b737b44b6f",
+          "Id": "ca5af9c5-9b70-49cf-8480-cafe3a2207ed",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Cornelia Reilly"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e584d8a079a1446bbd4",
+          "Id": "0b784fb2-fd7a-4119-87d5-02491f476878",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Delacruz Bailey"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e58ca2eda2832fe4fa1",
+          "Id": "0a32055d-7401-46f3-a470-91b2d10ac2b1",
+          "Sequence": "INIT_03",
+          "Type": "Task Type C",
+          "Role": "Configuration A",
+          "Assignee": "Maddox Booth"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e5836a4f0d3b578f629",
+          "Id": "a230d2a6-a4b7-4f7c-adc8-7467fd526f09",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Bette Monroe"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e5858e4386b33e809ea",
+          "Id": "8d55e5af-f7ed-471d-b588-9a5ebc8c05f6",
+          "Sequence": "INIT_04",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Dawson Carver"
+        }
+      ]
     },
     {
-        "ScenarioNo": 7,
-        "Name": "Scenario 612f8d2d1052126aaa755a12",
-        "Documentation": "Scenario Type C",
-        "ExecutionInstanceID": "34195bb4-9c01-449b-9214-463f99ae7d8a",
-        "CompletedTasks": 9,
-        "AllTasks": 15,
-        "Completion": 60,
-        "Status": "Running",
-        "StatusInfoState": "None"
+      "ScenarioNo": 7,
+      "Name": "Scenario 61308e582d23f9b09ae84517",
+      "Documentation": "Scenario Type C",
+      "ExecutionInstanceID": "348ae71a-9357-47bb-88d2-4acac8788bae",
+      "CompletedTasks": 5,
+      "AllTasks": 15,
+      "Completion": 33.333333333333336,
+      "Status": "Running",
+      "StatusInfoState": "None",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e58351a51bc1873284b",
+          "Id": "dd2efb82-25f0-42b0-aba2-3acddd3f2a67",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration B",
+          "Assignee": "Fuentes Snyder"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e586d9968bee9a3f797",
+          "Id": "c2ee7eb2-a366-4e8b-acc7-714c8bf240c9",
+          "Sequence": "INIT_04",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "Hannah Giles"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e585ed5a41aabae76fa",
+          "Id": "39aaef92-42fc-41dc-a3e3-4b29c0845d4e",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Slater Ferguson"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e58adb77ee00a05abdd",
+          "Id": "2e22809a-ec81-4638-a730-1c0ca5144a3f",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Tracy Morrison"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e5861d47b598c7db1f7",
+          "Id": "4315d319-4dab-4acf-94e1-777d82c91cf0",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Sophie Johnson"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e586026d00e15551fe6",
+          "Id": "055418fe-fd14-4fa8-9199-f47de5e3f773",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Kirby Sellers"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e5880b95436cbc18290",
+          "Id": "5dba2e24-4f84-4768-8adc-a51026009b77",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Sallie Mcdaniel"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e58139bab9ac9f77fd6",
+          "Id": "49a65140-2676-4d06-900d-aec128910d2d",
+          "Sequence": "INIT_02",
+          "Type": "Task Type C",
+          "Role": "Configuration C",
+          "Assignee": "Jeri Glass"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e58370945f2a86d7a29",
+          "Id": "a37398b7-6e6f-4c21-ac86-b30d47099776",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration B",
+          "Assignee": "Dorsey Howe"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e581e7c1e4c139f56a8",
+          "Id": "b33ecebd-8a97-40f1-b078-3928ab3112c5",
+          "Sequence": "INIT_03",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "Dillon Duke"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e5811f90d5a605104aa",
+          "Id": "4807d66f-c5fd-432f-97df-60d9daf16e14",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Wells Blackburn"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e584456016fc17d0acf",
+          "Id": "74ae45f2-7cca-4599-9cc7-982b8f3dd81e",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration B",
+          "Assignee": "Brady Clements"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e58310994758b9d4daf",
+          "Id": "8ba858a9-79d2-46f7-8b63-90f623e18a2c",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Ramona James"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e583d009e277e3bf839",
+          "Id": "cf0b2385-6333-4495-87e5-65afab41a5a5",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Carroll Grimes"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e58730c3f06fbbcd9d5",
+          "Id": "710a2846-46fc-40ac-a477-9d07a8e5b28d",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Saundra Olsen"
+        }
+      ]
     },
     {
-        "ScenarioNo": 8,
-        "Name": "Scenario 612f8d2dc0a0c88b66567744",
-        "Documentation": "Scenario Type B",
-        "ExecutionInstanceID": "7e508779-33a8-4bde-82ef-0bd37815816f",
-        "CompletedTasks": 10,
-        "AllTasks": 15,
-        "Completion": 66.66666666666667,
-        "Status": "Running",
-        "StatusInfoState": "None"
+      "ScenarioNo": 8,
+      "Name": "Scenario 61308e58787dd0e0e50c0ef8",
+      "Documentation": "Scenario Type C",
+      "ExecutionInstanceID": "24b0c14f-05fd-4b7c-ae10-7b0b385becb2",
+      "CompletedTasks": 8,
+      "AllTasks": 15,
+      "Completion": 53.333333333333336,
+      "Status": "Running",
+      "StatusInfoState": "None",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e58d4afb6b1dbbe87ef",
+          "Id": "394b87a7-96dd-4ffe-9260-50c8e48e4e74",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Dillard Crane"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e58d046c61cee9ce741",
+          "Id": "c39a80fb-1ac2-4160-8776-795ead9f4f6c",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Phelps Horne"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e58a0e1a111ba3d1c0a",
+          "Id": "09b31310-bfa5-441f-822c-726763546703",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration B",
+          "Assignee": "Jones Lee"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e581443f8dfa4af21bc",
+          "Id": "ab9939cb-f2e5-491b-a2ca-d6e9c8839f1c",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Sheri Donovan"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e58967debe160ba9895",
+          "Id": "006b3388-ecfe-496e-ab0c-0489ccf1c0e6",
+          "Sequence": "INIT_04",
+          "Type": "Task Type C",
+          "Role": "Configuration A",
+          "Assignee": "Weaver Lopez"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e58c079cd4396fc1c9c",
+          "Id": "2d029adc-6526-4a04-b7cc-adb4f53412a7",
+          "Sequence": "INIT_02",
+          "Type": "Task Type C",
+          "Role": "Configuration C",
+          "Assignee": "Krista Castillo"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e582ec9076be8be1569",
+          "Id": "dfaedef4-ee93-4e90-a46e-1c640eb42657",
+          "Sequence": "INIT_02",
+          "Type": "Task Type D",
+          "Role": "Configuration B",
+          "Assignee": "Burke Mccoy"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e58a4cc4fac0a5b7205",
+          "Id": "69bce0a9-c7e9-4b64-8eda-0d9818b54ce0",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration B",
+          "Assignee": "Juarez Calderon"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e58e107b474f4d9f0c3",
+          "Id": "08211934-c9da-49cf-825a-fa635ccc8b37",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Summers Mckay"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e587e9fda685089f3e8",
+          "Id": "0bd92809-2332-4d23-9c63-83ff12e2d0dc",
+          "Sequence": "INIT_04",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "Megan Smith"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e58b04964781618302c",
+          "Id": "c82b6285-6c20-43c5-b9ce-cf7130cf4505",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Veronica Bowman"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e585ec3d82f4f716356",
+          "Id": "91bfba08-8db3-4520-8b40-bd53ca5754db",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Larsen Hunter"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e58214c292084a3ba7c",
+          "Id": "81ec80c6-b27e-41f3-b08f-e4446324edbb",
+          "Sequence": "INIT_03",
+          "Type": "Task Type D",
+          "Role": "Configuration A",
+          "Assignee": "Suzanne Middleton"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e5883b179ac5d079a70",
+          "Id": "7aaff5bc-702d-47cf-9222-6ea89d69f2a7",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Rivers Potter"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e586b3d2e4f780adbae",
+          "Id": "7ee9bccc-52da-464f-bbae-569e7dd4bd64",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration B",
+          "Assignee": "Clara Rivas"
+        }
+      ]
     },
     {
-        "ScenarioNo": 9,
-        "Name": "Scenario 612f8d2da5c94e90e9a08048",
-        "Documentation": "Scenario Type C",
-        "ExecutionInstanceID": "f5b01be4-201f-48a1-b04d-1f729d9bc94c",
-        "CompletedTasks": 11,
-        "AllTasks": 15,
-        "Completion": 73.33333333333333,
-        "Status": "Running",
-        "StatusInfoState": "None"
+      "ScenarioNo": 9,
+      "Name": "Scenario 61308e5875c3366c98050505",
+      "Documentation": "Scenario Type B",
+      "ExecutionInstanceID": "df182628-f110-4195-a8a1-804e294da716",
+      "CompletedTasks": 15,
+      "AllTasks": 15,
+      "Completion": 100,
+      "Status": "Completed",
+      "StatusInfoState": "Success",
+      "Tasks": [
+        {
+          "TaskNo": 0,
+          "Name": "Task 61308e585fe15ed563a3b66a",
+          "Id": "3052f588-24ae-4d88-88ea-66677f90ab58",
+          "Sequence": "INIT_02",
+          "Type": "Task Type B",
+          "Role": "Configuration D",
+          "Assignee": "James Stanton"
+        },
+        {
+          "TaskNo": 1,
+          "Name": "Task 61308e586ad8ca964850ac44",
+          "Id": "a2b62320-72be-4a11-9227-80590d531c42",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Randall Lawson"
+        },
+        {
+          "TaskNo": 2,
+          "Name": "Task 61308e5887412c0dd95d7977",
+          "Id": "32df7048-8564-40b9-acfe-637041f12a71",
+          "Sequence": "INIT_01",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Marquita Mayer"
+        },
+        {
+          "TaskNo": 3,
+          "Name": "Task 61308e588f4a37e8baff30c4",
+          "Id": "af8fb690-eea8-4cac-a966-4c8df1cb2acd",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration C",
+          "Assignee": "Carey Saunders"
+        },
+        {
+          "TaskNo": 4,
+          "Name": "Task 61308e58887e17d9e9f6d913",
+          "Id": "a3877dd9-4868-4254-82c9-85955e89182c",
+          "Sequence": "INIT_03",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Yolanda Sutton"
+        },
+        {
+          "TaskNo": 5,
+          "Name": "Task 61308e583658261bf7df9798",
+          "Id": "f1297039-357c-4f02-b630-8021de6db54c",
+          "Sequence": "INIT_01",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Brandy Bolton"
+        },
+        {
+          "TaskNo": 6,
+          "Name": "Task 61308e58ca5a4a19098e5782",
+          "Id": "47c29bb4-4018-43a1-9f12-240ff2211c71",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Trisha Flowers"
+        },
+        {
+          "TaskNo": 7,
+          "Name": "Task 61308e58a069d20e0fefaed1",
+          "Id": "56a56efc-634c-42e9-a077-0106b8964dce",
+          "Sequence": "INIT_04",
+          "Type": "Task Type C",
+          "Role": "Configuration D",
+          "Assignee": "Debbie Delacruz"
+        },
+        {
+          "TaskNo": 8,
+          "Name": "Task 61308e5827411f9ff532ed23",
+          "Id": "5f2a3823-e4e5-4037-adb2-60bcef35eb6d",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration C",
+          "Assignee": "Roth Maynard"
+        },
+        {
+          "TaskNo": 9,
+          "Name": "Task 61308e5821261194502ccea1",
+          "Id": "5ebc689b-40f2-4fb5-a38c-eada61e5e83d",
+          "Sequence": "INIT_04",
+          "Type": "Task Type D",
+          "Role": "Configuration D",
+          "Assignee": "Adrienne Hurst"
+        },
+        {
+          "TaskNo": 10,
+          "Name": "Task 61308e587a0032718d221e91",
+          "Id": "78b81177-dc84-4c49-ab1c-d9d52d11853d",
+          "Sequence": "INIT_01",
+          "Type": "Task Type B",
+          "Role": "Configuration B",
+          "Assignee": "Colon Hendrix"
+        },
+        {
+          "TaskNo": 11,
+          "Name": "Task 61308e584f192e2c306e4ec3",
+          "Id": "6b1e4cb8-fa75-464e-9da3-6e44772fdaba",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration A",
+          "Assignee": "Small Mullen"
+        },
+        {
+          "TaskNo": 12,
+          "Name": "Task 61308e58c99bf552bc81bec0",
+          "Id": "77c7c0c5-94fa-4019-8122-650579e04af0",
+          "Sequence": "INIT_04",
+          "Type": "Task Type B",
+          "Role": "Configuration A",
+          "Assignee": "Lawrence Andrews"
+        },
+        {
+          "TaskNo": 13,
+          "Name": "Task 61308e58801e6d385f384810",
+          "Id": "17502baf-0f2e-4e4e-8ebb-296adaf33743",
+          "Sequence": "INIT_02",
+          "Type": "Task Type A",
+          "Role": "Configuration B",
+          "Assignee": "Rosetta Scott"
+        },
+        {
+          "TaskNo": 14,
+          "Name": "Task 61308e58ea815517cec12ea9",
+          "Id": "0e53ba9a-be08-4b43-9150-b5f16536ea39",
+          "Sequence": "INIT_04",
+          "Type": "Task Type A",
+          "Role": "Configuration D",
+          "Assignee": "Lauren Gilliam"
+        }
+      ]
     }
-]
+  ]

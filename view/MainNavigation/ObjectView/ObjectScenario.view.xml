@@ -1,16 +1,16 @@
-<mvc:View height="100%" 
-    controllerName="DemoUXapp.controller.MainNavigation.ObjectView.ObjectScenario" 
-    xmlns:core="sap.ui.core" 
-    xmlns:mvc="sap.ui.core.mvc" 
-    xmlns:l="sap.ui.layout" 
-    xmlns:f="sap.f" 
-    xmlns:m="sap.m" 
+<mvc:View controllerName="DemoUXapp.controller.MainNavigation.ObjectView.ObjectScenario"
+    height="100%"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+    xmlns:m="sap.m"
     xmlns="sap.uxap">
 
     <m:Page title="Cloud Integration Service">
         <m:content>
 
-            <ObjectPageLayout enableLazyLoading="true" 
+            <ObjectPageLayout enableLazyLoading="true"
                 headerContentPinnable="true">
                 <headerTitle>
                     <ObjectPageDynamicHeaderTitle>
@@ -22,27 +22,27 @@
                         </breadcrumbs>
 
                         <expandedHeading>
-                            <m:FlexBox wrap="Wrap" 
-                                fitContainer="true" 
+                            <m:FlexBox wrap="Wrap"
+                                fitContainer="true"
                                 alignItems="Center">
-                                <m:Title text="{Name}" 
+                                <m:Title text="{Name}"
                                     wrapping="true"></m:Title>
                             </m:FlexBox>
                         </expandedHeading>
 
                         <snappedHeading>
-                            <m:FlexBox wrap="Wrap" 
-                                fitContainer="true" 
+                            <m:FlexBox wrap="Wrap"
+                                fitContainer="true"
                                 alignItems="Center">
-                                <m:FlexBox wrap="NoWrap" 
-                                    fitContainer="true" 
-                                    alignItems="Center" 
+                                <m:FlexBox wrap="NoWrap"
+                                    fitContainer="true"
+                                    alignItems="Center"
                                     class="sapUiTinyMarginEnd">
-                                    <f:Avatar src="sap-icon://workflow-tasks" 
-                                        displayShape="Circle" 
-                                        displaySize="S" 
+                                    <f:Avatar src="sap-icon://workflow-tasks"
+                                        displayShape="Circle"
+                                        displaySize="S"
                                         class="sapUiTinyMarginEnd" />
-                                    <m:Title text="{Name}" 
+                                    <m:Title text="{Name}"
                                         wrapping="true"></m:Title>
                                 </m:FlexBox>
                             </m:FlexBox>
@@ -57,18 +57,18 @@
                         </snappedContent>
 
                         <actions>
-                            <ObjectPageHeaderActionButton icon="sap-icon://action" 
-                                type="Transparent" 
-                                text="Share" 
+                            <ObjectPageHeaderActionButton icon="sap-icon://action"
+                                type="Transparent"
+                                text="Share"
                                 tooltip="Share" />
                         </actions>
 
                         <navigationActions>
-                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-up" 
-                                type="Transparent" 
+                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-up"
+                                type="Transparent"
                                 tooltip="Move up" />
-                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-down" 
-                                type="Transparent" 
+                            <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-down"
+                                type="Transparent"
                                 tooltip="Move down" />
                         </navigationActions>
 
@@ -76,24 +76,24 @@
 
                 </headerTitle>
                 <headerContent>
-                    <m:FlexBox wrap="Wrap" 
-                        fitContainer="true" 
+                    <m:FlexBox wrap="Wrap"
+                        fitContainer="true"
                         alignItems="Stretch">
 
-                        <f:Avatar class="sapUiSmallMarginEnd sapUiSmallMarginTop" 
-                            src="sap-icon://workflow-tasks" 
+                        <f:Avatar class="sapUiSmallMarginEnd sapUiSmallMarginTop"
+                            src="sap-icon://workflow-tasks"
                             displaySize="L">
                         </f:Avatar>
 
                         <l:VerticalLayout class="sapUiSmallMarginEnd sapUiSmallMarginTop">
-                            <m:ObjectStatus title="Execution Instance ID" 
+                            <m:ObjectStatus title="Execution Instance ID"
                                 text="{ExecutionInstanceID}" />
-                            <m:ObjectStatus title="Status" 
-                                text="{Status}" 
+                            <m:ObjectStatus title="Status"
+                                text="{Status}"
                                 state="{StatusInfoState}" />
-                            <m:ProgressIndicator percentValue="{Completion}" 
-                                displayValue="{CompletedTasks}/{AllTasks}" 
-                                showValue="true" 
+                            <m:ProgressIndicator percentValue="{Completion}"
+                                displayValue="{CompletedTasks}/{AllTasks}"
+                                showValue="true"
                                 state="None" />
                         </l:VerticalLayout>
                     </m:FlexBox>
@@ -103,7 +103,7 @@
 
                     <ObjectPageSection titleUppercase="false">
                         <subSections>
-                            <ObjectPageSubSection mode="Expanded" 
+                            <ObjectPageSubSection mode="Expanded"
                                 title="Description">
                                 <blocks>
                                     <m:Text text="Description..." />
@@ -114,10 +114,13 @@
 
                     <ObjectPageSection titleUppercase="false">
                         <subSections>
-                            <ObjectPageSubSection mode="Expanded" 
+                            <ObjectPageSubSection mode="Expanded"
                                 title="Tasks">
                                 <blocks>
-                                    <m:Text text="Tasks..." />
+
+                                    <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Tasks"
+                                        class="sapUiSmallMarginBottom" />
+
                                 </blocks>
                             </ObjectPageSubSection>
                         </subSections>
@@ -125,7 +128,7 @@
 
                     <ObjectPageSection titleUppercase="false">
                         <subSections>
-                            <ObjectPageSubSection mode="Expanded" 
+                            <ObjectPageSubSection mode="Expanded"
                                 title="Graph">
                                 <blocks>
                                     <m:Text text="Graph..." />

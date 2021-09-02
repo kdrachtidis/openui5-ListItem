@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Controller) {
     "use strict";
 
-    var Controller = Controller.extend("DemoUXapp.controller.MainNavigation.ListView.Scenarios", {
+    var Controller = Controller.extend("DemoUXapp.controller.MainNavigation.ListView.Scenarios-Table", {
         onInit: function () {
             var sURL = "/";
             var amodel = new sap.ui.model.odata.ODataModel(sURL, true);
@@ -22,7 +22,7 @@ sap.ui.define([
             oCtx = oItem.getBindingContext();
             oAttr = oCtx.getProperty("ScenarioNo");
             console.log("ScenarioNo: " + oAttr);
-            this.getRouter().navTo("sap.uxap.ObjectPageSubSection/sap.m.List/sap.m.StandardListItem", {
+            this.getRouter().navTo("sap.uxap.ObjectPageSubSection/sap.m.Table/sap.m.ColumnListItem", {
                 scenarioId: oAttr
             });
         },

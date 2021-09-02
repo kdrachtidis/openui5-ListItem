@@ -1,4 +1,4 @@
-<mvc:View controllerName="DemoUXapp.controller.MainNavigation.ObjectView.ObjectScenario2" 
+<mvc:View controllerName="DemoUXapp.controller.MainNavigation.ObjectView.ObjectScenario-Table" 
   xmlns:l="sap.ui.layout" 
   xmlns:mvc="sap.ui.core.mvc" 
   xmlns:f="sap.f" 
@@ -16,7 +16,7 @@
             <breadcrumbs>
               <m:Breadcrumbs>
                 <m:Link text="Integration Scenarios" 
-                  href=".#/sap.f.GridList/sap.m.CustomListGridItem" />
+                  href=".#//sap.m.Table/sap.m.ColumnListItem" />
               </m:Breadcrumbs>
             </breadcrumbs>
 
@@ -24,7 +24,7 @@
               <m:FlexBox wrap="Wrap" 
                 fitContainer="true" 
                 alignItems="Center">
-                <m:Title text="{/Name}" 
+                <m:Title text="{Name}" 
                   wrapping="true"></m:Title>
               </m:FlexBox>
             </expandedHeading>
@@ -41,18 +41,18 @@
                     displayShape="Circle" 
                     displaySize="S" 
                     class="sapUiTinyMarginEnd" />
-                  <m:Title text="{/Name}" 
+                  <m:Title text="{Name}" 
                     wrapping="true"></m:Title>
                 </m:FlexBox>
               </m:FlexBox>
             </snappedHeading>
 
             <expandedContent>
-              <m:Text text="{/Documentation}" />
+              <m:Text text="{Documentation}" />
             </expandedContent>
 
             <snappedContent>
-              <m:Text text="{/Documentation}" />
+              <m:Text text="{Documentation}" />
             </snappedContent>
 
             <actions>
@@ -65,11 +65,11 @@
             <navigationActions>
               <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-up" 
                 type="Transparent" 
-                tooltip="Move up" />
+                tooltip="Move up" 
+                enabled="false" />
               <ObjectPageHeaderActionButton icon="sap-icon://slim-arrow-down" 
                 type="Transparent" 
-                tooltip="Move down" 
-                enabled="false" />
+                tooltip="Move down" />
             </navigationActions>
 
           </ObjectPageDynamicHeaderTitle>
@@ -87,12 +87,12 @@
 
             <l:VerticalLayout class="sapUiSmallMarginEnd sapUiSmallMarginTop">
               <m:ObjectStatus title="Execution Instance ID" 
-                text="{/ExecutionInstanceID}" />
+                text="{ExecutionInstanceID}" />
               <m:ObjectStatus title="Status" 
-                text="{/Status}" 
-                state="{/StatusInfoState}" />
-              <m:ProgressIndicator percentValue="{/Completion}" 
-                displayValue="{/CompletedTasks}/{/AllTasks}" 
+                text="{Status}" 
+                state="{StatusInfoState}" />
+              <m:ProgressIndicator percentValue="{Completion}" 
+                displayValue="{CompletedTasks}/{/AllTasks}" 
                 showValue="true" 
                 state="None" />
             </l:VerticalLayout>
@@ -103,7 +103,8 @@
 
           <ObjectPageSection titleUppercase="false">
             <subSections>
-              <ObjectPageSubSection title="Description">
+              <ObjectPageSubSection mode="Expanded" 
+                title="Description">
                 <blocks>
                   <m:Text text="Description..." />
                 </blocks>
@@ -116,7 +117,7 @@
               <ObjectPageSubSection mode="Expanded" 
                 title="Tasks">
                 <blocks>
-                  <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Tasks.Scenario2.Example5-CustomListGrid" 
+                  <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.ListView.withHeader.Tasks.Example3-Table" 
                     class="sapUiSmallMarginBottom" />
                 </blocks>
               </ObjectPageSubSection>
@@ -128,7 +129,7 @@
               <ObjectPageSubSection mode="Expanded" 
                 title="Graph">
                 <blocks>
-                  <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.GraphView.Horizontal.Scenario2" />
+                  <!--<mvc:XMLView viewName="DemoUXapp.view.MainNavigation.GraphView.Horizontal.Scenario1" />-->
                 </blocks>
               </ObjectPageSubSection>
             </subSections>
